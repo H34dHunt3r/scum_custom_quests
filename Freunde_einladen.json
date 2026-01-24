@@ -1,0 +1,171 @@
+{
+  "AssociatedNpc": "Bartender",
+  "Tier": 2,
+  "Title": "Freunde einladen",
+  "Description": "Ich will meinen Geburtstag mit ein paar alten Freunden feiern. kannst du für mich die Einladungen verteilen?",
+  "TimeLimitHours": 96.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 7000,
+      "Fame": 35,
+      "TradeDeals": [
+        {
+          "Item": "Absinthe",
+          "Price": 200,
+          "Amount": 1,
+          "Fame": 0,
+          "AllowExcluded": true
+        },
+        {
+          "Item": "Whiskey",
+          "Price": 200,
+          "Amount": 1,
+          "Fame": 0,
+          "AllowExcluded": true
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Überbringe die Einladungen",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Interaction",
+      "Locations": [
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/D_4_Trilj_03.D_4_Trilj_03:PersistentLevel.Door_Set02_02A_2_GEN_VARIABLE_BP_Door_Int_01_C_CAT_0.Door Mesh",
+          "FallbackTransform": "580727.937500,562499.375000,4858.279785|0.000000,-175.000031,0.000000|1.001000,0.821036,1.044892",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/Stone_House/Doors-Windows/SM_Door_Int_01.SM_Door_Int_01",
+          "Instance": 2
+        },
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/C_4_Porat_b_01.C_4_Porat_b_01:PersistentLevel.BP_Full_Set_01_Door_02_C_0.Door Mesh",
+          "FallbackTransform": "575768.937500,258227.031250,1653.631592|0.000000,48.057987,0.000000|0.966240,1.001000,1.006013",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/Stone_House/Doors-Windows/Doors_RW/SM_SH_Door_01.SM_SH_Door_01",
+          "Instance": 2
+        },
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/Z_4_Lighthouse_01.Z_4_Lighthouse_01:PersistentLevel.Door01_GEN_VARIABLE_BP_Full_Set_02_Door_02_C_CAT_0.Door Mesh",
+          "FallbackTransform": "601855.062500,-677344.125000,1122.103882|0.000000,87.974533,0.000000|1.112304,1.001000,1.095026",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/Stone_House/Doors-Windows/SM_Full_Set_02_Door_01.SM_Full_Set_02_Door_01",
+          "Instance": 2
+        },
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/Z_2_Lighthouse_01.Z_2_Lighthouse_01:PersistentLevel.Door01_GEN_VARIABLE_BP_Full_Set_02_Door_02_C_CAT_0.Door Mesh",
+          "FallbackTransform": "-69304.296875,-870797.125000,1482.931030|0.000000,0.000000,0.000000|1.112304,1.001000,1.095026",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/Stone_House/Doors-Windows/SM_Full_Set_02_Door_01.SM_Full_Set_02_Door_01",
+          "Instance": 2
+        },
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/Z_0_Vrsar_04.Z_0_Vrsar_04:PersistentLevel.BP_Full_Set_01_Door_02a_GEN_VARIABLE_BP_Full_Set_01_Door_02a_C_CAT_289.Door Mesh",
+          "FallbackTransform": "-870945.500000,-852948.375000,1019.210083|0.000000,-46.014366,0.000000|0.923467,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/Stone_House/Doors-Windows/Doors_RW/SM_SH_Door_01.SM_SH_Door_01",
+          "Instance": 2
+        },
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/B_2_Postira_01.B_2_Postira_01:PersistentLevel.BP_Full_Set_01_Door_03_GEN_VARIABLE_BP_Full_Set_02_Door_01_C_CAT_2.Door Mesh",
+          "FallbackTransform": "-32125.132812,-271200.750000,20689.753906|0.000000,-102.319794,0.000000|1.021073,1.001000,0.950905",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/Stone_House/Doors-Windows/SM_Full_Set_02_Door_01.SM_Full_Set_02_Door_01",
+          "Instance": 2
+        },
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/B_0_Boat_Dock.B_0_Boat_Dock:PersistentLevel.BP_River_Boathouse_02_Green2_2.SM_River_Boathouse_01",
+          "FallbackTransform": "-655546.812500,-8178.125000,28438.283203|-1.621179,6.783279,-1.364715|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/River_Boathouse_Wooden/SM_River_Boathouse_01.SM_River_Boathouse_01",
+          "Instance": 2
+        },
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/D_1_Prigorje_04.D_1_Prigorje_04:PersistentLevel.CB_Door_02_GEN_VARIABLE_BP_Continental_Door_01_C_CAT_50.Door Mesh",
+          "FallbackTransform": "-529848.812500,474792.625000,80313.968750|0.000000,-0.000519,0.000000|1.501000,1.026000,0.996000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/Continental_Houses/Houses/Objects/SM_Continental_Door_01.SM_Continental_Door_01",
+          "Instance": 2
+        },
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/D_3_Kotoriba_02.D_3_Kotoriba_02:PersistentLevel.BP_Continental_Door_05_GEN_VARIABLE_BP_Continental_Door_05_C_CAT_90.Door Mesh",
+          "FallbackTransform": "19660.187500,598831.187500,35858.425781|0.000000,95.086693,0.000000|1.039894,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/Continental_Houses/Houses/Objects/SM_Continental_Door_05.SM_Continental_Door_05",
+          "Instance": 2
+        }
+      ],
+      "MinNeeded": 4,
+      "MaxNeeded": 4,
+      "SpawnOnlyNeeded": true,
+      "WorldMarkerShowDistance": 5,
+      "LocationsShownOnMap": [
+        {
+          "Location": {
+            "X": 580727.9375,
+            "Y": 562499.375,
+            "Z": 4858.279785
+          },
+          "SizeFactor": 2.0
+        },
+        {
+          "Location": {
+            "X": 575768.9375,
+            "Y": 258227.03125,
+            "Z": 1653.631592
+          },
+          "SizeFactor": 2.0
+        },
+        {
+          "Location": {
+            "X": 601855.0625,
+            "Y": -677344.125,
+            "Z": 1122.103882
+          },
+          "SizeFactor": 2.0
+        },
+        {
+          "Location": {
+            "X": -69304.296875,
+            "Y": -870797.125,
+            "Z": 1482.93103
+          },
+          "SizeFactor": 2.0
+        },
+        {
+          "Location": {
+            "X": -870945.5,
+            "Y": -852948.375,
+            "Z": 1019.210083
+          },
+          "SizeFactor": 2.0
+        },
+        {
+          "Location": {
+            "X": -32125.132812,
+            "Y": -271200.75,
+            "Z": 20689.753906
+          },
+          "SizeFactor": 2.0
+        },
+        {
+          "Location": {
+            "X": -655546.8125,
+            "Y": -8178.125,
+            "Z": 28438.283203
+          },
+          "SizeFactor": 2.0
+        },
+        {
+          "Location": {
+            "X": -529848.8125,
+            "Y": 474792.625,
+            "Z": 80313.96875
+          },
+          "SizeFactor": 2.0
+        },
+        {
+          "Location": {
+            "X": 19660.1875,
+            "Y": 598831.1875,
+            "Z": 35858.425781
+          },
+          "SizeFactor": 2.0
+        }
+      ]
+    }
+  ]
+}

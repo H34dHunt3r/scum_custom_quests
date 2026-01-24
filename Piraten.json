@@ -76,8 +76,8 @@
           "Instance": 2
         }
       ],
-      "MinNeeded": 8,
-      "MaxNeeded": 8,
+      "MinNeeded": 4,
+      "MaxNeeded": 4,
       "SpawnOnlyNeeded": true,
       "WorldMarkerShowDistance": 50,
       "LocationsShownOnMap": [
@@ -87,15 +87,15 @@
             "Y": -157692.047,
             "Z": 3726.303
           },
-          "SizeFactor": 1.0
+          "SizeFactor": 2.0
         },
         {
           "Location": {
             "X": 554940.563,
-            "Y": -408515,
+            "Y": -408515.0,
             "Z": 5669.721
           },
-          "SizeFactor": 1.0
+          "SizeFactor": 2.0
         },
         {
           "Location": {
@@ -103,7 +103,7 @@
             "Y": -654076.5,
             "Z": 6665.979
           },
-          "SizeFactor": 1.0
+          "SizeFactor": 2.0
         },
         {
           "Location": {
@@ -111,7 +111,7 @@
             "Y": -677451.938,
             "Z": 4085.082
           },
-          "SizeFactor": 1.0
+          "SizeFactor": 2.0
         },
         {
           "Location": {
@@ -119,7 +119,7 @@
             "Y": -876857.5,
             "Z": 9318.015
           },
-          "SizeFactor": 1.0
+          "SizeFactor": 2.0
         },
         {
           "Location": {
@@ -127,7 +127,7 @@
             "Y": 871678.063,
             "Z": 4445.883
           },
-          "SizeFactor": 1.0
+          "SizeFactor": 2.0
         },
         {
           "Location": {
@@ -135,7 +135,7 @@
             "Y": -495607.656,
             "Z": 6257.462
           },
-          "SizeFactor": 1.0
+          "SizeFactor": 2.0
         },
         {
           "Location": {
@@ -143,7 +143,7 @@
             "Y": -727833.375,
             "Z": 5209.403
           },
-          "SizeFactor": 1.0
+          "SizeFactor": 2.0
         }
       ]
     }
