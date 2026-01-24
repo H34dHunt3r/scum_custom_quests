@@ -1,0 +1,39 @@
+{
+  "AssociatedNpc": "Bartender",
+  "Tier": 1,
+  "Title": "Weight Watchers 2",
+  "Description": "Kannst du mir ein paar mehr Daten von 15 dicken Puppen zur Analyse beschaffen, damit Ich herausfinden kann, warum ehemalige Kunden so zugenommen haben?",
+  "TimeLimitHours": 168.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 1500,
+      "Fame": 10,
+      "TradeDeals": [
+        {
+          "Item": "Cheese",
+          "Price": 0,
+          "Amount": 2,
+          "Fame": 0,
+          "AllowExcluded": true
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Dicke Zombies",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Elimination",
+      "Amount": 15,
+      "TargetCharacters": [
+        "BP_Zombie_Civilian_Fat_Female",
+        "BP_Zombie_Civilian_Fat_Male",
+        "BP_Zombie_Hospital_Fat",
+        "BP_Zombie_Nuclear_Fat_Female",
+        "BP_Zombie_Nuclear_Fat_Male",
+        "BP_Zombie_Police_Fat"
+      ]
+    }
+  ]
+}

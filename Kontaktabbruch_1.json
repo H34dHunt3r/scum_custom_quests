@@ -1,0 +1,43 @@
+{
+  "AssociatedNpc": "Banker",
+  "Tier": 2,
+  "Title": "Kontaktabbruch 1",
+  "Description": "Wir haben schon lange nichts mehr vom Außenposten in A2 gehört. Kannst du bitte einmal dort vorbeischauen und nach dem rechten sehen?",
+  "TimeLimitHours": 72.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 1000,
+      "Fame": 5
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Gebäude im ehemaligen Außenposten",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Interaction",
+      "Locations": [
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/A_2_Prigradica.A_2_Prigradica:PersistentLevel.SM_Market_01_Blueprint_5988.StaticMeshComponent025",
+          "FallbackTransform": "-217269.843750,-404581.843750,884.568848|0.000000,6.339850,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/Stone_Buildings/Stone_Market/Objects/SM_Stone_Market_02.SM_Stone_Market_02",
+          "Instance": 5988
+        }
+      ],
+      "MinNeeded": 1,
+      "MaxNeeded": 1,
+      "SpawnOnlyNeeded": true,
+      "WorldMarkerShowDistance": 5,
+      "LocationsShownOnMap": [
+        {
+          "Location": {
+            "X": -217782.031,
+            "Y": -404325.281,
+            "Z": 966.237
+          },
+          "SizeFactor": 2.0
+        }
+      ]
+    }
+  ]
+}

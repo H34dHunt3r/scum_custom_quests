@@ -1,0 +1,66 @@
+{
+  "AssociatedNpc": "Bartender",
+  "Tier": 2,
+  "Title": "Patrytime",
+  "Description": "Ich hab gehört, dass es 2 tolle Clubs auf der Insel gibt. Kannst du für mich herausfinden welcher Club der bessere ist?",
+  "TimeLimitHours": 72.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 2000,
+      "Fame": 10,
+      "TradeDeals": [
+        {
+          "Item": "Scum_Sunrise",
+          "Price": 75,
+          "Amount": 3,
+          "Fame": 5,
+          "AllowExcluded": true
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Clubs getestet",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Interaction",
+      "Locations": [
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/Safe_Zone_D_2.Safe_Zone_D_2:PersistentLevel.BP_ZelenaMilja_Sign2.SM_DanceClub_Sign_BlueOyster",
+          "FallbackTransform": "-277918.968750,313071.375000,84513.343750|0.000007,-46.477505,89.999939|1.698044,1.698044,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/City/DanceClub/SM_DanceClub_Sign_ZelenaMilja.SM_DanceClub_Sign_ZelenaMilja",
+          "Instance": 2
+        },
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/D_4_Samobor_04.D_4_Samobor_04:PersistentLevel.BP_Tavern_02_Exterior_2.SM_Pub_Sign_Big_01",
+          "FallbackTransform": "335710.343750,365000.250000,21255.591797|0.000000,-158.523575,0.000000|1.001000,0.810948,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/Tavern/Objects/SM_Pub_Sign_Big_01.SM_Pub_Sign_Big_01",
+          "Instance": 4
+        }
+      ],
+      "MinNeeded": 2,
+      "MaxNeeded": 2,
+      "SpawnOnlyNeeded": true,
+      "WorldMarkerShowDistance": 10,
+      "LocationsShownOnMap": [
+        {
+          "Location": {
+            "X": -277745.469,
+            "Y": 313230.719,
+            "Z": 84331.82
+          },
+          "SizeFactor": 2.0
+        },
+        {
+          "Location": {
+            "X": 335799.938,
+            "Y": 364845.438,
+            "Z": 21065.4
+          },
+          "SizeFactor": 2.0
+        }
+      ]
+    }
+  ]
+}

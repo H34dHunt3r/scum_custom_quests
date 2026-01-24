@@ -1,0 +1,49 @@
+{
+  "AssociatedNpc": "Bartender",
+  "Tier": 1,
+  "Title": "Fischfabrik",
+  "Description": "Wusstest du schon, dass es eine Fischfabrik gibt? Nein? Dann schau doch mal hier nach. p.s. es gibt 2 arten von Dosenfisch",
+  "TimeLimitHours": 96.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 1000,
+      "Fame": 10
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Mit Objekten interagieren",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Interaction",
+      "Locations": [
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/A_1_Fish_Factory_02.A_1_Fish_Factory_02:PersistentLevel.SM_Fish_Package_Pallet_38.StaticMeshComponent0",
+          "FallbackTransform": "-338406.531250,-365113.031250,135.130859|0.147962,85.325447,0.353070|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Objects/Items/Fish_Factory_Elements/Package_Pallets/02/SM_Fish_Package_Pallet_06.SM_Fish_Package_Pallet_06",
+          "Instance": 2
+        },
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/A_1_Fish_Factory_02.A_1_Fish_Factory_02:PersistentLevel.SM_Fish_Package_Pallet_03.InstancedStaticMesh",
+          "FallbackTransform": "-337724.906250,-364638.250000,133.577271|0.000000,177.499130,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Objects/Items/Fish_Factory_Elements/Package_Pallets/SM_Fish_Package_Pallet_03.SM_Fish_Package_Pallet_03",
+          "Instance": 1
+        }
+      ],
+      "MinNeeded": 2,
+      "MaxNeeded": 2,
+      "SpawnOnlyNeeded": true,
+      "WorldMarkerShowDistance": 5,
+      "LocationsShownOnMap": [
+        {
+          "Location": {
+            "X": -337902.062,
+            "Y": -364652.531,
+            "Z": 212.004
+          },
+          "SizeFactor": 1.0
+        }
+      ]
+    }
+  ]
+}
