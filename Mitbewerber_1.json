@@ -12,7 +12,7 @@
   ],
   "Conditions": [
     {
-      "TrackingCaption": "Ziele eliminieren",
+      "TrackingCaption": "NPCs eliminieren",
       "SequenceIndex": 0,
       "CanBeAutoCompleted": false,
       "Type": "Elimination",

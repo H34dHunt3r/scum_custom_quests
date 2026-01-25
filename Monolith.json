@@ -12,7 +12,7 @@
   ],
   "Conditions": [
     {
-      "TrackingCaption": "Mit Objekten interagieren",
+      "TrackingCaption": "Monolith betrachtet",
       "SequenceIndex": 0,
       "CanBeAutoCompleted": true,
       "Type": "Interaction",

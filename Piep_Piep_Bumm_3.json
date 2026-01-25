@@ -12,7 +12,7 @@
   ],
   "Conditions": [
     {
-      "TrackingCaption": "Ziele eliminieren",
+      "TrackingCaption": "Pieper mit RPG eliminiert",
       "SequenceIndex": 0,
       "CanBeAutoCompleted": false,
       "Type": "Elimination",
