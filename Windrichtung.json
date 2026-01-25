@@ -1,0 +1,57 @@
+{
+  "AssociatedNpc": "Mechanic",
+  "Tier": 1,
+  "Title": "Windrichtung",
+  "Description": "Überprüfe die Windbeutel auf den ehemaligen privaten Flugfeldern",
+  "TimeLimitHours": 0.5,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 500,
+      "Fame": 12
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Prüfe die Windbeutel",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Interaction",
+      "Locations": [
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/A_4_Airfield.A_4_Airfield:PersistentLevel.SM_WindDirectionForAirfield_8.SkeletalMeshComponent0",
+          "FallbackTransform": "352204.062500,-522376.250000,7539.998047|0.000000,-15.000076,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "<Error: None>",
+          "Instance": 8
+        },
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/Z_0_Airfield_03.Z_0_Airfield_03:PersistentLevel.SM_WindDirectionForAirfield2.SkeletalMeshComponent0",
+          "FallbackTransform": "-756730.500000,-674969.937500,10616.050781|0.000000,-179.999786,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "<Error: None>",
+          "Instance": 3
+        }
+      ],
+      "MinNeeded": 2,
+      "MaxNeeded": 2,
+      "SpawnOnlyNeeded": true,
+      "WorldMarkerShowDistance": 5,
+      "LocationsShownOnMap": [
+        {
+          "Location": {
+            "X": 352078.75,
+            "Y": -522353.625,
+            "Z": 7632.173
+          },
+          "SizeFactor": 1.0
+        },
+        {
+          "Location": {
+            "X": -756582.312,
+            "Y": -674923.625,
+            "Z": 10708.137
+          },
+          "SizeFactor": 1.0
+        }
+      ]
+    }
+  ]
+}

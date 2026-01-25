@@ -1,0 +1,57 @@
+{
+  "AssociatedNpc": "Banker",
+  "Tier": 1,
+  "Title": "Ehre die Toten",
+  "Description": "Pflege die Zwei Denkmäler die für BigVerne und DPinchy.",
+  "TimeLimitHours": 96.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 500,
+      "Fame": 20
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Pflege die Denkmäler",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Interaction",
+      "Locations": [
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/C_3_Zagorje_02.C_3_Zagorje_02:PersistentLevel.SM_BigVernGoat_01_2.StaticMeshComponent0",
+          "FallbackTransform": "154256.375000,34738.421875,29779.562500|0.000000,72.503906,0.000000|2.001000,2.001000,2.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Objects/Outdoor/Cemetery/Cemetery_monument/SM_BigVernGoat_01.SM_BigVernGoat_01",
+          "Instance": 2
+        },
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/D_4_Samobor_01.D_4_Samobor_01:PersistentLevel.BP_Monument_Spring_A_2.SM_Monument_Spring_A",
+          "FallbackTransform": "330012.500000,360942.156250,20932.642578|0.000000,38.510590,0.000000|0.976000,0.976000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/Monuments/Monument_Spring_A/Objects/SM_Monument_Spring_A.SM_Monument_Spring_A",
+          "Instance": 1
+        }
+      ],
+      "MinNeeded": 2,
+      "MaxNeeded": 2,
+      "SpawnOnlyNeeded": true,
+      "WorldMarkerShowDistance": 5,
+      "LocationsShownOnMap": [
+        {
+          "Location": {
+            "X": 153973.391,
+            "Y": 34757.699,
+            "Z": 29879.031
+          },
+          "SizeFactor": 1.0
+        },
+        {
+          "Location": {
+            "X": 329814.656,
+            "Y": 360793.375,
+            "Z": 21029.068
+          },
+          "SizeFactor": 1.0
+        }
+      ]
+    }
+  ]
+}
