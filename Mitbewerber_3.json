@@ -1,0 +1,25 @@
+{
+  "AssociatedNpc": "Armorer",
+  "Tier": 3,
+  "Title": "Mitbewerber 3",
+  "Description": "Töte auch die restlichen Sammeltrups von meinen Kokurenten aus.",
+  "TimeLimitHours": 168.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 6000,
+      "Fame": 30
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Ziele eliminieren",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Elimination",
+      "Amount": 30,
+      "TargetCharacters": [
+        "ArmedNPC"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "AssociatedNpc": "Armorer",
+  "Tier": 3,
+  "Title": "Piep Piep Bumm 2",
+  "Description": "Wenn du interesse hast kannst du noch ein paar mehr Puppen in die Luft sprengen",
+  "TimeLimitHours": 168.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 4000,
+      "Fame": 35
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Ziele eliminieren",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Elimination",
+      "Amount": 20,
+      "TargetCharacters": [
+        "BP_Zombie_SuicideVest"
+      ]
+    }
+  ]
+}

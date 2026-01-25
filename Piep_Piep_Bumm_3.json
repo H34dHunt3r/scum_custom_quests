@@ -1,0 +1,28 @@
+{
+  "AssociatedNpc": "Armorer",
+  "Tier": 3,
+  "Title": "Piep Piep Bumm 3",
+  "Description": "Spreng die Pieper in die Luft mit deiner RPG.",
+  "TimeLimitHours": 168.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 6000,
+      "Fame": 55
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Ziele eliminieren",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Elimination",
+      "Amount": 5,
+      "TargetCharacters": [
+        "BP_Zombie_SuicideVest"
+      ],
+      "AllowedWeapons": [
+        "Weapon_RPG7"
+      ]
+    }
+  ]
+}

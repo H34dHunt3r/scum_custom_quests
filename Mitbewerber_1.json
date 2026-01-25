@@ -1,0 +1,25 @@
+{
+  "AssociatedNpc": "Armorer",
+  "Tier": 1,
+  "Title": "Mitbewerber 1",
+  "Description": "Schalte ein paar Sammeltrups von meinen Kokurenten aus.",
+  "TimeLimitHours": 96.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 2000,
+      "Fame": 10
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Ziele eliminieren",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Elimination",
+      "Amount": 10,
+      "TargetCharacters": [
+        "ArmedNPC"
+      ]
+    }
+  ]
+}

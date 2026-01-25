@@ -1,0 +1,25 @@
+{
+  "AssociatedNpc": "Armorer",
+  "Tier": 2,
+  "Title": "Piep Piep Bumm 1",
+  "Description": "Hast du lust ein paar Sachen zu sprengen?",
+  "TimeLimitHours": 168.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 2000,
+      "Fame": 15
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Ziele eliminieren",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Elimination",
+      "Amount": 10,
+      "TargetCharacters": [
+        "BP_Zombie_SuicideVest"
+      ]
+    }
+  ]
+}
