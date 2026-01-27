@@ -3,12 +3,12 @@
   "Tier": 1,
   "Title": "Piraten",
   "Description": "Einige Piraten haben die Leuchtürme manipuliert. Kannst du die 8 Leuchttürme überprüfen?",
-  "TimeLimitHours": 24.0,
+  "TimeLimitHours": 96.0,
   "RewardPool": [
     {
-      "CurrencyNormal": 25000,
-      "CurrencyGold": 1,
-      "Fame": 65,
+      "CurrencyNormal": 3000,
+      "CurrencyGold": 0,
+      "Fame": 25,
       "TradeDeals": [
         {
           "Item": "BP_HeadLamp",
