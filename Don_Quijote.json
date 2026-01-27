@@ -31,69 +31,69 @@
           "Instance": 1
         },
 		{
-    "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/Z_3_Wind_Turbines_01.Z_3_Wind_Turbines_01:PersistentLevel.BP_Wind_Turbine_speed_51.SM_Wind_Turbine_Main",
-    "FallbackTransform": "111909.375000,-817457.000000,13366.954102|0.000000,89.999962,0.000000|1.001000,1.001000,1.001000",
-    "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/Wind_Turbine/Meshes/SM_Wind_Turbine_Main.SM_Wind_Turbine_Main"
+		  "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/Z_3_Wind_Turbines_01.Z_3_Wind_Turbines_01:PersistentLevel.BP_Wind_Turbine_speed_51.SM_Wind_Turbine_Main",
+		  "FallbackTransform": "111909.375000,-817457.000000,13366.954102|0.000000,89.999962,0.000000|1.001000,1.001000,1.001000",
+		  "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/Wind_Turbine/Meshes/SM_Wind_Turbine_Main.SM_Wind_Turbine_Main"
 		},
 		{
-    "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/Z_3_Wind_Turbines_01.Z_3_Wind_Turbines_01:PersistentLevel.BP_Wind_Turbine_speed_50.SM_Wind_Turbine_Main",
-    "FallbackTransform": "90974.875000,-823454.062500,13684.201172|0.000000,95.487762,0.000000|1.001000,1.001000,1.001000",
-    "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/Wind_Turbine/Meshes/SM_Wind_Turbine_Main.SM_Wind_Turbine_Main"
+		  "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/Z_3_Wind_Turbines_01.Z_3_Wind_Turbines_01:PersistentLevel.BP_Wind_Turbine_speed_50.SM_Wind_Turbine_Main",
+		  "FallbackTransform": "90974.875000,-823454.062500,13684.201172|0.000000,95.487762,0.000000|1.001000,1.001000,1.001000",
+		  "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/Wind_Turbine/Meshes/SM_Wind_Turbine_Main.SM_Wind_Turbine_Main"
 		},
 		{
-    "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/Z_3_Wind_Turbines_02.Z_3_Wind_Turbines_02:PersistentLevel.BP_Wind_Turbine_NoEntry_2.SM_Wind_Turbine_Main",
-    "FallbackTransform": "72767.929688,-832661.500000,11880.560547|0.000000,89.999962,0.000000|1.001000,1.001000,1.001000",
-    "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/Wind_Turbine/Meshes/SM_Wind_Turbine_Main.SM_Wind_Turbine_Main"
+		  "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/Z_3_Wind_Turbines_02.Z_3_Wind_Turbines_02:PersistentLevel.BP_Wind_Turbine_NoEntry_2.SM_Wind_Turbine_Main",
+		  "FallbackTransform": "72767.929688,-832661.500000,11880.560547|0.000000,89.999962,0.000000|1.001000,1.001000,1.001000",
+		  "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/Wind_Turbine/Meshes/SM_Wind_Turbine_Main.SM_Wind_Turbine_Main"
 		},
 		{
-    "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/Z_3_Wind_Turbines_02.Z_3_Wind_Turbines_02:PersistentLevel.BP_Wind_Turbine_NoEntry2_5.SM_Wind_Turbine_Main",
-    "FallbackTransform": "53054.804688,-838556.250000,10821.028320|0.000000,89.999954,0.000000|1.001000,1.001000,1.001000",
-    "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/Wind_Turbine/Meshes/SM_Wind_Turbine_Main.SM_Wind_Turbine_Main"
+		  "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/Z_3_Wind_Turbines_02.Z_3_Wind_Turbines_02:PersistentLevel.BP_Wind_Turbine_NoEntry2_5.SM_Wind_Turbine_Main",
+		  "FallbackTransform": "53054.804688,-838556.250000,10821.028320|0.000000,89.999954,0.000000|1.001000,1.001000,1.001000",
+		  "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/Wind_Turbine/Meshes/SM_Wind_Turbine_Main.SM_Wind_Turbine_Main"
 		},
 		{
-    "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/Z_3_Wind_Turbines_02.Z_3_Wind_Turbines_02:PersistentLevel.BP_Wind_Turbine_speed_46.SM_Wind_Turbine_Main",
-    "FallbackTransform": "30662.476562,-848007.312500,11547.720703|0.000000,89.999962,0.000000|1.001000,1.001000,1.001000",
-    "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/Wind_Turbine/Meshes/SM_Wind_Turbine_Main.SM_Wind_Turbine_Main"
+		  "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/Z_3_Wind_Turbines_02.Z_3_Wind_Turbines_02:PersistentLevel.BP_Wind_Turbine_speed_46.SM_Wind_Turbine_Main",
+		  "FallbackTransform": "30662.476562,-848007.312500,11547.720703|0.000000,89.999962,0.000000|1.001000,1.001000,1.001000",
+		  "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/Wind_Turbine/Meshes/SM_Wind_Turbine_Main.SM_Wind_Turbine_Main"
 		},
 		{
-    "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/Z_3_Wind_Turbines_02.Z_3_Wind_Turbines_02:PersistentLevel.BP_Wind_Turbine_speed_45.SM_Wind_Turbine_Main",
-    "FallbackTransform": "13201.773438,-852558.812500,13219.638672|0.000000,89.999977,0.000000|1.001000,1.001000,1.001000",
-    "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/Wind_Turbine/Meshes/SM_Wind_Turbine_Main.SM_Wind_Turbine_Main"
+		  "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/Z_3_Wind_Turbines_02.Z_3_Wind_Turbines_02:PersistentLevel.BP_Wind_Turbine_speed_45.SM_Wind_Turbine_Main",
+		  "FallbackTransform": "13201.773438,-852558.812500,13219.638672|0.000000,89.999977,0.000000|1.001000,1.001000,1.001000",
+		  "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/Wind_Turbine/Meshes/SM_Wind_Turbine_Main.SM_Wind_Turbine_Main"
 		},
 		{
-    "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/Z_2_Wind_Turbines_01.Z_2_Wind_Turbines_01:PersistentLevel.BP_Wind_Turbine_speed_45_0.SM_Wind_Turbine_Main",
-    "FallbackTransform": "-156385.984375,-825866.562500,16217.133789|0.000000,89.999954,0.000000|1.001000,1.001000,1.001000",
-    "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/Wind_Turbine/Meshes/SM_Wind_Turbine_Main.SM_Wind_Turbine_Main"
+		  "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/Z_2_Wind_Turbines_01.Z_2_Wind_Turbines_01:PersistentLevel.BP_Wind_Turbine_speed_45_0.SM_Wind_Turbine_Main",
+		  "FallbackTransform": "-156385.984375,-825866.562500,16217.133789|0.000000,89.999954,0.000000|1.001000,1.001000,1.001000",
+		  "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/Wind_Turbine/Meshes/SM_Wind_Turbine_Main.SM_Wind_Turbine_Main"
 		},
 		{
-    "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/Z_2_Wind_Turbines_01.Z_2_Wind_Turbines_01:PersistentLevel.BP_Wind_Turbine_speed_45_1.SM_Wind_Turbine_Main",
-    "FallbackTransform": "-180299.125000,-824079.250000,17324.445312|0.000000,89.999954,0.000000|1.001000,1.001000,1.001000",
-    "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/Wind_Turbine/Meshes/SM_Wind_Turbine_Main.SM_Wind_Turbine_Main"
+		  "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/Z_2_Wind_Turbines_01.Z_2_Wind_Turbines_01:PersistentLevel.BP_Wind_Turbine_speed_45_1.SM_Wind_Turbine_Main",
+		  "FallbackTransform": "-180299.125000,-824079.250000,17324.445312|0.000000,89.999954,0.000000|1.001000,1.001000,1.001000",
+		  "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/Wind_Turbine/Meshes/SM_Wind_Turbine_Main.SM_Wind_Turbine_Main"
 		},
 		{
-    "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/Z_2_Wind_Turbines_01.Z_2_Wind_Turbines_01:PersistentLevel.BP_Wind_Turbine_speed_45_2.SM_Wind_Turbine_Main",
-    "FallbackTransform": "-207669.187500,-825925.437500,17263.365234|0.000000,89.999954,0.000000|1.001000,1.001000,1.001000",
-    "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/Wind_Turbine/Meshes/SM_Wind_Turbine_Main.SM_Wind_Turbine_Main"
+		  "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/Z_2_Wind_Turbines_01.Z_2_Wind_Turbines_01:PersistentLevel.BP_Wind_Turbine_speed_45_2.SM_Wind_Turbine_Main",
+		  "FallbackTransform": "-207669.187500,-825925.437500,17263.365234|0.000000,89.999954,0.000000|1.001000,1.001000,1.001000",
+		  "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/Wind_Turbine/Meshes/SM_Wind_Turbine_Main.SM_Wind_Turbine_Main"
 		},
 		{
-    "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/Z_2_Wind_Turbines_02.Z_2_Wind_Turbines_02:PersistentLevel.BP_Wind_Turbine_speed_45_0.SM_Wind_Turbine_Main",
-    "FallbackTransform": "-230105.343750,-812021.375000,22464.501953|0.000000,89.999954,0.000000|1.001000,1.001000,1.001000",
-    "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/Wind_Turbine/Meshes/SM_Wind_Turbine_Main.SM_Wind_Turbine_Main"
+		  "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/Z_2_Wind_Turbines_02.Z_2_Wind_Turbines_02:PersistentLevel.BP_Wind_Turbine_speed_45_0.SM_Wind_Turbine_Main",
+		  "FallbackTransform": "-230105.343750,-812021.375000,22464.501953|0.000000,89.999954,0.000000|1.001000,1.001000,1.001000",
+		  "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/Wind_Turbine/Meshes/SM_Wind_Turbine_Main.SM_Wind_Turbine_Main"
 		},
 		{
-    "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/Z_2_Wind_Turbines_02.Z_2_Wind_Turbines_02:PersistentLevel.BP_Wind_Turbine_speed_45_2.SM_Wind_Turbine_Main",
-    "FallbackTransform": "-250978.937500,-812851.875000,25682.289062|0.000000,89.999954,0.000000|1.001000,1.001000,1.001000",
-    "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/Wind_Turbine/Meshes/SM_Wind_Turbine_Main.SM_Wind_Turbine_Main"
+		  "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/Z_2_Wind_Turbines_02.Z_2_Wind_Turbines_02:PersistentLevel.BP_Wind_Turbine_speed_45_2.SM_Wind_Turbine_Main",
+		  "FallbackTransform": "-250978.937500,-812851.875000,25682.289062|0.000000,89.999954,0.000000|1.001000,1.001000,1.001000",
+		  "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/Wind_Turbine/Meshes/SM_Wind_Turbine_Main.SM_Wind_Turbine_Main"
 		},
 		{
-    "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/Z_2_Wind_Turbines_02.Z_2_Wind_Turbines_02:PersistentLevel.BP_Wind_Turbine_speed_45_1.SM_Wind_Turbine_Main",
-    "FallbackTransform": "-268283.062500,-815896.562500,22890.699219|0.000000,89.999954,0.000000|1.001000,1.001000,1.001000",
-    "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/Wind_Turbine/Meshes/SM_Wind_Turbine_Main.SM_Wind_Turbine_Main"
+		  "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/Z_2_Wind_Turbines_02.Z_2_Wind_Turbines_02:PersistentLevel.BP_Wind_Turbine_speed_45_1.SM_Wind_Turbine_Main",
+		  "FallbackTransform": "-268283.062500,-815896.562500,22890.699219|0.000000,89.999954,0.000000|1.001000,1.001000,1.001000",
+		  "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/Wind_Turbine/Meshes/SM_Wind_Turbine_Main.SM_Wind_Turbine_Main"
 		},
 		{
-    "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/Z_2_Wind_Turbines_02.Z_2_Wind_Turbines_02:PersistentLevel.BP_Wind_Turbine_speed_45_3.SM_Wind_Turbine_Main",
-    "FallbackTransform": "-289089.968750,-826197.000000,20156.062500|0.000000,89.999954,0.000000|1.001000,1.001000,1.001000",
-    "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/Wind_Turbine/Meshes/SM_Wind_Turbine_Main.SM_Wind_Turbine_Main"
+		  "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/Z_2_Wind_Turbines_02.Z_2_Wind_Turbines_02:PersistentLevel.BP_Wind_Turbine_speed_45_3.SM_Wind_Turbine_Main",
+		  "FallbackTransform": "-289089.968750,-826197.000000,20156.062500|0.000000,89.999954,0.000000|1.001000,1.001000,1.001000",
+		  "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/Wind_Turbine/Meshes/SM_Wind_Turbine_Main.SM_Wind_Turbine_Main"
 		}
       ],
       "MinNeeded": 5,
