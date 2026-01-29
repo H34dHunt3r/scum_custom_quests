@@ -1,0 +1,49 @@
+{
+  "AssociatedNpc": "Harbourmaster",
+  "Tier": 1,
+  "Title": "höchster Berg",
+  "Description": "Die Landratten debattieren welches der höchste Berg ist. Beweis ihnen, dass sie alle unrecht haben",
+  "TimeLimitHours": 96.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 2000,
+      "Fame": 20,
+      "Skills": [
+        {
+          "Skill": "Survival",
+          "Experience": 3000
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Besteig den höchsten Berg",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Interaction",
+      "Locations": [
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/Landscape_C_1_4d.Landscape_C_1_4d:PersistentLevel.InstancedFoliageActor_0.FoliageInstancedTree_4",
+          "FallbackTransform": "-337941.687500,288182.625000,101241.023438|0.310507,-115.028069,-2.983902|1.639254,1.639254,1.639254",
+          "VisibleMesh": "/Game/ConZ_Files/Foliage/Continental/Trees/Scots_Pine/V2/ScotsPine_01.ScotsPine_01",
+          "Instance": 16
+        }
+      ],
+      "MinNeeded": 1,
+      "MaxNeeded": 1,
+      "SpawnOnlyNeeded": true,
+      "WorldMarkerShowDistance": 15,
+      "LocationsShownOnMap": [
+        {
+          "Location": {
+            "X": -337884.094,
+            "Y": 288105.906,
+            "Z": 101392.688
+          },
+          "SizeFactor": 1.0
+        }
+      ]
+    }
+  ]
+}
