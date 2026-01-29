@@ -1,0 +1,43 @@
+{
+  "AssociatedNpc": "Harbourmaster",
+  "Tier": 2,
+  "Title": "Angelruten",
+  "Description": "Langsam gehen mir die Angelruten aus. Kannst du mir mehr besorgen?",
+  "TimeLimitHours": 96.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 1500,
+      "Fame": 15,
+      "TradeDeals": [
+        {
+          "Item": "FishingRod",
+          "Price": 150,
+          "Amount": 1,
+          "Fame": 0,
+          "AllowExcluded": true
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Sammel Angelruten",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": false,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Fishing_rod",
+            "FishingRod",
+            "FishingRod_A",
+            "FishingRod_B"
+          ],
+          "RequiredNum": 3
+        }
+      ]
+    }
+  ]
+}
