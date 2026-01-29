@@ -1,0 +1,31 @@
+{
+  "AssociatedNpc": "GeneralGoods",
+  "Tier": 1,
+  "Title": "Verpackungen",
+  "Description": "Du weißt ja, dass du Questitems auch am Briefkasten abgeben kannst. Das haben leider zu viele gemacht und jetzt brauch ich neue Leere Beutel.",
+  "TimeLimitHours": 96.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 1500,
+      "Fame": 10
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Leere Beutel",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": false,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "EmptyBag"
+          ],
+          "RequiredNum": 10
+        }
+      ]
+    }
+  ]
+}

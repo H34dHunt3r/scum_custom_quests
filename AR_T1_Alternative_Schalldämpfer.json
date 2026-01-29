@@ -1,0 +1,70 @@
+{
+  "AssociatedNpc": "Armorer",
+  "Tier": 1,
+  "Title": "Alternative Schalldämpfer",
+  "Description": "Es muss nicht immer ein gekaufter Schalldämpfer sein zur Not kannst du die auch selber bauen. Teste sie am besten mal Alle aus.",
+  "TimeLimitHours": 24.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 500,
+      "Skills": [
+        {
+          "Skill": "Handgun",
+          "Experience": 1000
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Flaschen Schalldämpfer",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": false,
+      "PlayerKeepsItems": true,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "WeaponSuppressor_ImprovisedBottle_White",
+            "WeaponSuppressor_ImprovisedBottle_Grey"
+          ],
+          "RequiredNum": 1
+        }
+      ]
+    },
+    {
+      "TrackingCaption": "Dosen Schalldämpfer",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": false,
+      "PlayerKeepsItems": true,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "WeaponSuppressor_ImprovisedCan_Grey",
+            "WeaponSuppressor_ImprovisedCan_Red"
+          ],
+          "RequiredNum": 1
+        }
+      ]
+    },
+    {
+      "TrackingCaption": "Ölfilter Schalldämpfer",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": false,
+      "PlayerKeepsItems": true,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "WeaponSuppressor_ImprovisedOilCan_01"
+          ],
+          "RequiredNum": 1
+        }
+      ]
+    }
+  ]
+}
