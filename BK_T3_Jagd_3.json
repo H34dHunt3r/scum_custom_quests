@@ -1,0 +1,43 @@
+{
+  "AssociatedNpc": "Bartender",
+  "Tier": 3,
+  "Title": "Jagd 3",
+  "Description": "Beweise dass du ein richtiger Jäger bist und bring mir 5 Tierköpfe als Beweis. Du hast dafür 1 Woche Zeit.",
+  "TimeLimitHours": 168.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 5000,
+      "Fame": 25,
+      "Skills": [
+        {
+          "Skill": "Camouflage",
+          "Experience": 1000
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Tierköpfe",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": true,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Buck_Head",
+            "Boar_Head",
+            "Doe_Head",
+            "Donkey_Head",
+            "Goat_Head",
+            "Bear_Head",
+            "Horse_Head"
+          ],
+          "RequiredNum": 5
+        }
+      ]
+    }
+  ]
+}

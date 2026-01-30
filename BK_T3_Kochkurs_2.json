@@ -1,0 +1,79 @@
+{
+  "AssociatedNpc": "Bartender",
+  "Tier": 3,
+  "Title": "Kochkurs 2",
+  "Description": "Ich will mein Menü etwas erweitern. kannst du mir alle Kochbücher besorgen?",
+  "TimeLimitHours": 96.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 5000,
+      "Fame": 39
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Kochbuch",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": false,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Book_Cooking_BBQ"
+          ],
+          "RequiredNum": 1
+        },
+        {
+          "AcceptedItems": [
+            "Book_Cooking_Cake"
+          ],
+          "RequiredNum": 1
+        },
+        {
+          "AcceptedItems": [
+            "Book_Cooking_Casseroles"
+          ],
+          "RequiredNum": 1
+        },
+        {
+          "AcceptedItems": [
+            "Book_Cooking_Drinks"
+          ],
+          "RequiredNum": 1
+        },
+        {
+          "AcceptedItems": [
+            "Book_Cooking_Pasta"
+          ],
+          "RequiredNum": 1
+        },
+        {
+          "AcceptedItems": [
+            "Book_Cooking_Pizza"
+          ],
+          "RequiredNum": 1
+        },
+        {
+          "AcceptedItems": [
+            "Book_Cooking_Rice"
+          ],
+          "RequiredNum": 1
+        },
+        {
+          "AcceptedItems": [
+            "Book_Cooking_Soup"
+          ],
+          "RequiredNum": 1
+        },
+        {
+          "AcceptedItems": [
+            "Book_Cooking_Stew"
+          ],
+          "RequiredNum": 1
+        }
+      ]
+    }
+  ]
+}

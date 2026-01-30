@@ -1,0 +1,43 @@
+{
+  "AssociatedNpc": "Bartender",
+  "Tier": 2,
+  "Title": "Jagd 2",
+  "Description": "Zeige mir was du in der Quest Jagd 1 nicht gelogen hast und bring mir 2 Tierköpfe als Beweis.",
+  "TimeLimitHours": 96.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 2500,
+      "Fame": 25,
+      "Skills": [
+        {
+          "Skill": "Camouflage",
+          "Experience": 1000
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Tierköpfe",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": true,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Buck_Head",
+            "Boar_Head",
+            "Doe_Head",
+            "Donkey_Head",
+            "Goat_Head",
+            "Bear_Head",
+            "Horse_Head"
+          ],
+          "RequiredNum": 2
+        }
+      ]
+    }
+  ]
+}

@@ -2,7 +2,7 @@
   "AssociatedNpc": "GeneralGoods",
   "Tier": 1,
   "Title": "Piraten",
-  "Description": "Einige Piraten haben die Leuchtürme manipuliert. Kannst du die 8 Leuchttürme überprüfen?",
+  "Description": "Einige Piraten haben die Leuchtürme manipuliert. Kannst du 4 der 8 Leuchttürme überprüfen? Jemand anderes wird dann die anderen 4 übernehmen.",
   "TimeLimitHours": 96.0,
   "RewardPool": [
     {
