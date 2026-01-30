@@ -1,0 +1,38 @@
+{
+  "AssociatedNpc": "Banker",
+  "Tier": 2,
+  "Title": "Alternative Währung 2",
+  "Description": "In der Zukunft werden mir irgendwann die Geldscheine ausgehen. Darauf will Ich mich vorbereiten. Sammel ein Paar Zigaretten Schachteln für mich.",
+  "TimeLimitHours": 96.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 3000,
+      "Fame": 15,
+      "Skills": [
+        {
+          "Skill": "Medical",
+          "Experience": 1000
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Zigarettenschachteln",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": false,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Cigarettes",
+            "Cigarettes1"
+          ],
+          "RequiredNum": 10
+        }
+      ]
+    }
+  ]
+}
