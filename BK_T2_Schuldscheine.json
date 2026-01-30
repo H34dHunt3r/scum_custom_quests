@@ -3,7 +3,7 @@
   "Tier": 2,
   "Title": "Schuldscheine",
   "Description": "Kannst du mir die versteckten Schuldscheine holen? Mir ist das zu gerfährlich",
-  "TimeLimitHours": 0.5,
+  "TimeLimitHours": 96.0,
   "RewardPool": [
     {
       "CurrencyNormal": 2000,
