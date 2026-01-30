@@ -3,7 +3,7 @@
   "Tier": 1,
   "Title": "Windrichtung",
   "Description": "Überprüfe die Windbeutel auf den ehemaligen privaten Flugfeldern",
-  "TimeLimitHours": 0.5,
+  "TimeLimitHours": 96.0,
   "RewardPool": [
     {
       "CurrencyNormal": 500,
@@ -18,22 +18,22 @@
       "Type": "Interaction",
       "Locations": [
         {
-          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/A_4_Airfield.A_4_Airfield:PersistentLevel.SM_WindDirectionForAirfield_8.SkeletalMeshComponent0",
-          "FallbackTransform": "352204.062500,-522376.250000,7539.998047|0.000000,-15.000076,0.000000|1.001000,1.001000,1.001000",
-          "VisibleMesh": "<Error: None>",
-          "Instance": 8
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/A_4_Airfield.A_4_Airfield:PersistentLevel.SM_Debris_Pile_Med_01_69.StaticMeshComponent0",
+          "FallbackTransform": "350490.000000,-519320.687500,7539.999512|0.000000,140.000061,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Objects/Outdoor/Debris/DebrisRubbleKit/Meshes/Debris_Ground_Fill/SM_Debris_Pile_Med_01.SM_Debris_Pile_Med_01",
+          "Instance": 69
         },
         {
-          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/Z_0_Airfield_03.Z_0_Airfield_03:PersistentLevel.SM_WindDirectionForAirfield2.SkeletalMeshComponent0",
-          "FallbackTransform": "-756730.500000,-674969.937500,10616.050781|0.000000,-179.999786,0.000000|1.001000,1.001000,1.001000",
-          "VisibleMesh": "<Error: None>",
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/Z_0_Airfield_03.Z_0_Airfield_03:PersistentLevel.SM_Pallet_6pcs36.StaticMeshComponent0",
+          "FallbackTransform": "-756828.375000,-675244.500000,10716.856445|0.000000,5.000263,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Objects/Indoor/Workshop/Euro_Wood_Pallet/SM_Pallet_6pcs.SM_Pallet_6pcs",
           "Instance": 3
         }
       ],
       "MinNeeded": 2,
       "MaxNeeded": 2,
       "SpawnOnlyNeeded": true,
-      "WorldMarkerShowDistance": 5,
+      "WorldMarkerShowDistance": 15,
       "LocationsShownOnMap": [
         {
           "Location": {
