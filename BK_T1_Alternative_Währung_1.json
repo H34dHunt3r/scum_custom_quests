@@ -6,7 +6,7 @@
   "TimeLimitHours": 96.0,
   "RewardPool": [
     {
-      "CurrencyNormal": 1000,
+      "CurrencyNormal": 1500,
       "Fame": 10,
       "Skills": [
         {

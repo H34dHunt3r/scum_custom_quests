@@ -6,8 +6,8 @@
   "TimeLimitHours": 96.0,
   "RewardPool": [
     {
-      "CurrencyNormal": 3000,
-      "Fame": 15,
+      "CurrencyNormal": 4000,
+      "Fame": 17,
       "Skills": [
         {
           "Skill": "Medical",

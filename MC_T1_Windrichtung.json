@@ -6,8 +6,8 @@
   "TimeLimitHours": 96.0,
   "RewardPool": [
     {
-      "CurrencyNormal": 500,
-      "Fame": 12
+      "CurrencyNormal": 3500,
+      "Fame": 29
     }
   ],
   "Conditions": [
@@ -41,7 +41,7 @@
             "Y": -522353.625,
             "Z": 7632.173
           },
-          "SizeFactor": 1.0
+          "SizeFactor": 1.5
         },
         {
           "Location": {
@@ -49,7 +49,7 @@
             "Y": -674923.625,
             "Z": 10708.137
           },
-          "SizeFactor": 1.0
+          "SizeFactor": 1.5
         }
       ]
     }

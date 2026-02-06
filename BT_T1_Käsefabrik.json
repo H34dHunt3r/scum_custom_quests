@@ -6,7 +6,7 @@
   "TimeLimitHours": 96.0,
   "RewardPool": [
     {
-      "CurrencyNormal": 1000,
+      "CurrencyNormal": 1500,
       "Fame": 10
     }
   ],
@@ -27,7 +27,7 @@
       "MinNeeded": 1,
       "MaxNeeded": 1,
       "SpawnOnlyNeeded": true,
-      "WorldMarkerShowDistance": 5,
+      "WorldMarkerShowDistance": 25,
       "LocationsShownOnMap": [
         {
           "Location": {

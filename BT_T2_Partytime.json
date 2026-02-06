@@ -6,8 +6,8 @@
   "TimeLimitHours": 72.0,
   "RewardPool": [
     {
-      "CurrencyNormal": 2000,
-      "Fame": 10,
+      "CurrencyNormal": 4000,
+      "Fame": 37,
       "TradeDeals": [
         {
           "Item": "Scum_Sunrise",

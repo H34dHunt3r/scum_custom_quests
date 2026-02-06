@@ -6,9 +6,9 @@
   "TimeLimitHours": 96.0,
   "RewardPool": [
     {
-      "CurrencyNormal": 3000,
+      "CurrencyNormal": 6000,
       "CurrencyGold": 0,
-      "Fame": 25,
+      "Fame": 43,
       "TradeDeals": [
         {
           "Item": "BP_HeadLamp",

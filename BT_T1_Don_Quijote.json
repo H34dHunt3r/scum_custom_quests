@@ -6,9 +6,8 @@
   "TimeLimitHours": 96.0,
   "RewardPool": [
     {
-      "CurrencyNormal": 1500,
-      "CurrencyGold": 2,
-      "Fame": 15
+      "CurrencyNormal": 5000,
+      "Fame": 36
     }
   ],
   "Conditions": [

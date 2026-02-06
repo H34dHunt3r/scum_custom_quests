@@ -6,8 +6,8 @@
   "TimeLimitHours": 96.0,
   "RewardPool": [
     {
-      "CurrencyNormal": 1500,
-      "Fame": 15,
+      "CurrencyNormal": 3000,
+      "Fame": 18,
       "TradeDeals": [
         {
           "Item": "FishingReel",

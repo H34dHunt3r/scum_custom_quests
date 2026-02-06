@@ -6,7 +6,7 @@
   "TimeLimitHours": 96.0,
   "RewardPool": [
     {
-      "CurrencyNormal": 1500,
+      "CurrencyNormal": 2500,
       "Skills": [
         {
           "Skill": "MeleeWeapons",

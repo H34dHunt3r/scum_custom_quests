@@ -6,8 +6,8 @@
   "TimeLimitHours": 168.0,
   "RewardPool": [
     {
-      "CurrencyNormal": 1500,
-      "Fame": 10,
+      "CurrencyNormal": 6000,
+      "Fame": 30,
       "TradeDeals": [
         {
           "Item": "Cheese",
@@ -29,10 +29,16 @@
       "TargetCharacters": [
         "BP_Zombie_Civilian_Fat_Female",
         "BP_Zombie_Civilian_Fat_Male",
+        "BP_Zombie_Civilian_Muscular_Female",
+        "BP_Zombie_Civilian_Muscular_Male",
         "BP_Zombie_Hospital_Fat",
+        "BP_Zombie_Hospital_Muscle",
+        "BP_Zombie_Military_Armored",
         "BP_Zombie_Nuclear_Fat_Female",
         "BP_Zombie_Nuclear_Fat_Male",
-        "BP_Zombie_Police_Fat"
+        "BP_Zombie_Nuclear_Muscular_Female",
+        "BP_Zombie_Police_Fat",
+        "BP_Zombie_Police_Muscle"
       ]
     }
   ]

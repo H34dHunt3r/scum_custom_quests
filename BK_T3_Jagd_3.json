@@ -6,8 +6,8 @@
   "TimeLimitHours": 168.0,
   "RewardPool": [
     {
-      "CurrencyNormal": 5000,
-      "Fame": 25,
+      "CurrencyNormal": 7000,
+      "Fame": 35,
       "Skills": [
         {
           "Skill": "Camouflage",

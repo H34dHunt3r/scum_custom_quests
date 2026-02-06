@@ -1,8 +1,8 @@
 {
   "AssociatedNpc": "Bartender",
-  "Tier": 3,
-  "Title": "Kochkurs",
-  "Description": "Ich will mein Menü etwas erweitern. kannst du mir ein paar Kochbücher besorgen",
+  "Tier": 2,
+  "Title": "Kochkurs 1",
+  "Description": "Ich will mein Menü etwas erweitern. kannst du mir ein paar Kochbücher besorgen?",
   "TimeLimitHours": 96.0,
   "RewardPool": [
     {

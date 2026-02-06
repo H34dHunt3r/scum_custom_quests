@@ -6,8 +6,8 @@
   "TimeLimitHours": 96.0,
   "RewardPool": [
     {
-      "CurrencyNormal": 1500,
-      "Fame": 15,
+      "CurrencyNormal": 1750,
+      "Fame": 23,
       "TradeDeals": [
         {
           "Item": "FishingRod",
