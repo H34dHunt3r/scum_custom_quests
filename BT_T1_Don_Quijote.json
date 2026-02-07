@@ -97,8 +97,8 @@
       ],
       "MinNeeded": 5,
       "MaxNeeded": 5,
-      "SpawnOnlyNeeded": true,
-      "WorldMarkerShowDistance": 15
+      "SpawnOnlyNeeded": false,
+      "WorldMarkerShowDistance": 50
     }
   ]
 }
