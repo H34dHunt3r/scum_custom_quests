@@ -14,7 +14,7 @@
     {
       "TrackingCaption": "NPCs eliminieren",
       "SequenceIndex": 0,
-      "CanBeAutoCompleted": false,
+      "CanBeAutoCompleted": true,
       "Type": "Elimination",
       "Amount": 20,
       "TargetCharacters": [

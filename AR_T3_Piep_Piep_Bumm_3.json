@@ -14,7 +14,7 @@
     {
       "TrackingCaption": "Pieper mit RPG eliminiert",
       "SequenceIndex": 0,
-      "CanBeAutoCompleted": false,
+      "CanBeAutoCompleted": true,
       "Type": "Elimination",
       "Amount": 5,
       "TargetCharacters": [

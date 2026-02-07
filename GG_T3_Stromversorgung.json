@@ -67,7 +67,7 @@
       ],
       "MinNeeded": 6,
       "MaxNeeded": 6,
-      "SpawnOnlyNeeded": true,
+      "SpawnOnlyNeeded": false,
       "WorldMarkerShowDistance": 20,
       "LocationsShownOnMap": [
         {

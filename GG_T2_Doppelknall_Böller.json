@@ -1,0 +1,66 @@
+{
+  "AssociatedNpc": "GeneralGoods",
+  "Tier": 2,
+  "Title": "Böller",
+  "Description": "Falls du mal ein paar Puppen anlocken oder ablenken möchtest schau in den Tangläden in Sambor vorbei. Dort kannst du manchmal Dopellkanll-Böller finden.",
+  "TimeLimitHours": 96.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 3000,
+      "Fame": 12,
+      "TradeDeals": [
+        {
+          "Item": "Double_Bang_Firecracker",
+          "Price": 200,
+          "Amount": 1,
+          "Fame": 0,
+          "AllowExcluded": true
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Tanfladen finden",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Interaction",
+      "Locations": [
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/D_4_Samobor_44_Block_02.D_4_Samobor_44_Block_02:PersistentLevel.BP_2_Floor_Building_02_Ruined_Chinese2.Chinese_Store_Decoration",
+          "FallbackTransform": "364932.031250,318269.031250,20230.732422|0.000000,79.999901,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/City/2_Floor_Building_02/Chinese_Store/Chinese_Store_Decoration.Chinese_Store_Decoration",
+          "Instance": 2
+        },
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/D_4_Samobor_05_Block_02.D_4_Samobor_05_Block_02:PersistentLevel.BP_2_Floor_Building_02_Ruined_Chinese_Ext.Chinese_Store_Decoration",
+          "FallbackTransform": "346326.093750,368492.062500,20690.054688|0.000000,-72.067619,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/City/2_Floor_Building_02/Chinese_Store/Chinese_Store_Decoration.Chinese_Store_Decoration",
+          "Instance": 2
+        }
+      ],
+      "MinNeeded": 2,
+      "MaxNeeded": 2,
+      "SpawnOnlyNeeded": false,
+      "WorldMarkerShowDistance": 5,
+      "LocationsShownOnMap": [
+        {
+          "Location": {
+            "X": 364702.031,
+            "Y": 318873.0,
+            "Z": 20316.785
+          },
+          "SizeFactor": 1.0
+        },
+        {
+          "Location": {
+            "X": 346839.875,
+            "Y": 368091.156,
+            "Z": 20776.387
+          },
+          "SizeFactor": 1.0
+        }
+      ]
+    }
+  ]
+}

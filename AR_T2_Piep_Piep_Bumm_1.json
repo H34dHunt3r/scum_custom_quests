@@ -14,7 +14,7 @@
     {
       "TrackingCaption": "Pieper eliminieren",
       "SequenceIndex": 0,
-      "CanBeAutoCompleted": false,
+      "CanBeAutoCompleted": true,
       "Type": "Elimination",
       "Amount": 10,
       "TargetCharacters": [
