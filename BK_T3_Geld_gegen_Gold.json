@@ -1,0 +1,30 @@
+{
+  "AssociatedNpc": "Banker",
+  "Tier": 3,
+  "Title": "Geld gegen Gold",
+  "Description": "tausche Bargeld gegen Gold",
+  "TimeLimitHours": 2.0,
+  "RewardPool": [
+    {
+      "CurrencyGold": 100
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Geld sammeln",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": true,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Cash"
+          ],
+          "RequiredNum": 120000
+        }
+      ]
+    }
+  ]
+}
