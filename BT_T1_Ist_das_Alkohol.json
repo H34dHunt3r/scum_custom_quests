@@ -2,7 +2,7 @@
   "AssociatedNpc": "Bartender",
   "Tier": 1,
   "Title": "Ist das Alkohol?",
-  "Description": "Schau nach was an dem Gerücht vom Selbstgemachten Alkohol dran ist und erledige ein paar der Konkurenten.",
+  "Description": "Schau nach was an dem Gerücht vom Selbstgemachten Alkohol in Spickovina dran ist und erledige ein paar der Schwarzbrenner.",
   "TimeLimitHours": 96.0,
   "RewardPool": [
     {
@@ -40,7 +40,7 @@
       ]
     },
     {
-      "TrackingCaption": "Schwarzbrenner getötet",
+      "TrackingCaption": "Puppen getötet",
       "SequenceIndex": 0,
       "CanBeAutoCompleted": true,
       "Type": "Elimination",
