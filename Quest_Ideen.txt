@@ -4,7 +4,7 @@ Interaktion:
 	Uboot(e) anklicken
 	Fischer Angelstege auskundschaften
 	Fischer Fischerboote anschauen
-	Klick sachen auf dem Schrottplatz an
+	Klick sachen auf dem Schrottplatz an und sammel 30 Schrott
 	Jagdshops anschauen
 	Waffenläden finden
 
@@ -14,7 +14,6 @@ Eliminirung:
 Sammeln:
 	Banker Sammle Bücher, Lupe, Stifte
 	Banker sammel Zahn- und/oder Ohrenketten
-	Barkeeper Gläser sammeln
 	Barkeeper Obst/Gemüse sammeln
 	Sammle Rubbersheet
 	Mittelalter Markt sammle Mittelalter Schwerter Helme Bögen Strumpfhosen Jacke Armschutz hut
