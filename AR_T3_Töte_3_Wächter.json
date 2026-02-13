@@ -1,0 +1,25 @@
+{
+  "AssociatedNpc": "Armorer",
+  "Tier": 3,
+  "Title": "Töte 3 Wächter",
+  "Description": "Töte 3 von diesen hässlichen Clankern, ziehmlich einfach oder?",
+  "TimeLimitHours": 96.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 15000
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Wächter töten",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Elimination",
+      "Amount": 3,
+      "TargetCharacters": [
+        "SentryOld",
+        "Sentry"
+      ]
+    }
+  ]
+}
