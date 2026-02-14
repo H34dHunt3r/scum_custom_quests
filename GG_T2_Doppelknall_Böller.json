@@ -21,7 +21,7 @@
   ],
   "Conditions": [
     {
-      "TrackingCaption": "Tanfladen finden",
+      "TrackingCaption": "Tangladen finden",
       "SequenceIndex": 0,
       "CanBeAutoCompleted": true,
       "Type": "Interaction",
