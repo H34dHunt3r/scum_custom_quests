@@ -1,0 +1,46 @@
+{
+  "AssociatedNpc": "Doctor",
+  "Tier": 1,
+  "Title": "Trypanophobie",
+  "Description": "Hey, Ich hab ein paar Kunden die Angst vor Spritzen haben und ein Angel möchte denen helfen. Nach Rücksprache mit Doktor Sommer wollen wir Jedem Kunden eine Spritze zu jedem Kauf beilegen. Kannst du mir helfen und 10 Spritzen besorgen?",
+  "TimeLimitHours": 96.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 2500,
+      "TradeDeals": [
+        {
+          "Item": "APPLE",
+          "Price": 50,
+          "Amount": 3,
+          "Fame": 0,
+          "AllowExcluded": true
+        },
+        {
+          "Item": "Syringe",
+          "Price": 0,
+          "Amount": 1,
+          "Fame": 0,
+          "AllowExcluded": true
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Spritzen sammeln",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": false,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Syringe"
+          ],
+          "RequiredNum": 10
+        }
+      ]
+    }
+  ]
+}
