@@ -1,0 +1,57 @@
+{
+  "AssociatedNpc": "GeneralGoods",
+  "Tier": 2,
+  "Title": "Backpfeifengesicht 2",
+  "Description": "Eine Gruppe Lebensmüder haben meine Lieferung geklaut. Ich will denen eine Nachricht senden. Töte 15 Puppen mit Baseballschlägern und bring mir als Beweis drei volle Zahnketten.",
+  "TimeLimitHours": 96.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 5000,
+      "Fame": 28,
+      "TradeDeals": [
+        {
+          "Item": "2H_Metal_Baseball_Bat",
+          "Price": 100,
+          "Amount": 1,
+          "Fame": 0,
+          "AllowExcluded": true
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Zahnkette sammeln",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": true,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "15_Teeth_Necklace"
+          ],
+          "RequiredNum": 3
+        }
+      ]
+    },
+    {
+      "TrackingCaption": "töte 15 Puppen mit Baseballschlägern",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Elimination",
+      "Amount": 15,
+      "TargetCharacters": [
+        "Puppet"
+      ],
+      "AllowedWeapons": [
+        "2H_Baseball_Bat",
+        "2H_Baseball_Bat_Blaze",
+        "2H_Baseball_Bat_with_spikes",
+        "2H_Baseball_Bat_with_wire",
+        "2H_Metal_Baseball_Bat"
+      ]
+    }
+  ]
+}

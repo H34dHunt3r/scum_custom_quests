@@ -1,0 +1,43 @@
+{
+  "AssociatedNpc": "Doctor",
+  "Tier": 1,
+  "Title": "Arbeitsunfälle",
+  "Description": "Ein Paar der Inselbewohner hatten \"Arbeitsunfälle\". Ich bräuchte ein paar Puppenarme und -Beine um daraus Prothesen zu machen.",
+  "TimeLimitHours": 96.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 5000,
+      "Fame": 26
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Arme sammeln",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": false,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Prisoner_Left_Arm",
+            "Prisoner_Right_Arm",
+            "Zombie_01_Left_Arm",
+            "Zombie_01_Right_Arm"
+          ],
+          "RequiredNum": 5
+        },
+        {
+          "AcceptedItems": [
+            "Prisoner_Left_Leg",
+            "Prisoner_Right_Leg",
+            "Zombie_01_Left_Leg",
+            "Zombie_01_Right_Leg"
+          ],
+          "RequiredNum": 5
+        }
+      ]
+    }
+  ]
+}

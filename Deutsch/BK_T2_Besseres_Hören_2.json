@@ -1,0 +1,31 @@
+{
+  "AssociatedNpc": "Banker",
+  "Tier": 2,
+  "Title": "Besseres Hören 2",
+  "Description": "Ein paar deiner \"Freunde\" können leider etwas schlecht hören und Ich möchte ein Zeichen setzen. Bring mir drei volle Ohren Ketten.",
+  "TimeLimitHours": 96.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 3500,
+      "Fame": 26
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Ohrenkette sammeln",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": true,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "6_pieces_Ear_Necklace"
+          ],
+          "RequiredNum": 3
+        }
+      ]
+    }
+  ]
+}

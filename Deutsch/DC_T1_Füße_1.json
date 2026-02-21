@@ -1,12 +1,13 @@
 {
   "AssociatedNpc": "Doctor",
-  "Tier": 2,
-  "Title": "Füße 2",
+  "Tier": 1,
+  "Title": "Füße 1",
   "Description": "Ein paar Lemuren waren hier und meinten sie brauchen ein paar Puppenfüße um die königlichen füße zu beschützen.",
   "TimeLimitHours": 96.0,
   "RewardPool": [
     {
-      "CurrencyNormal": 5000
+      "CurrencyNormal": 2500,
+      "Fame": 10
     }
   ],
   "Conditions": [
@@ -25,7 +26,7 @@
             "Zombie_01_Left_Foot",
             "Zombie_01_Right_Foot"
           ],
-          "RequiredNum": 10
+          "RequiredNum": 5
         }
       ]
     }
