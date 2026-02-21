@@ -1,0 +1,57 @@
+{
+  "AssociatedNpc": "Mechanic",
+  "Tier": 1,
+  "Title": "Windrichtung",
+  "Description": "Überprüfe die Windbeutel auf den ehemaligen privaten Flugfeldern",
+  "TimeLimitHours": 96.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 3500,
+      "Fame": 29
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Prüfe die Windbeutel",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Interaction",
+      "Locations": [
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/A_4_Airfield.A_4_Airfield:PersistentLevel.SM_Debris_Pile_Med_01_69.StaticMeshComponent0",
+          "FallbackTransform": "350490.000000,-519320.687500,7539.999512|0.000000,140.000061,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Objects/Outdoor/Debris/DebrisRubbleKit/Meshes/Debris_Ground_Fill/SM_Debris_Pile_Med_01.SM_Debris_Pile_Med_01",
+          "Instance": 69
+        },
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/Z_0_Airfield_03.Z_0_Airfield_03:PersistentLevel.SM_Pallet_6pcs36.StaticMeshComponent0",
+          "FallbackTransform": "-756828.375000,-675244.500000,10716.856445|0.000000,5.000263,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Objects/Indoor/Workshop/Euro_Wood_Pallet/SM_Pallet_6pcs.SM_Pallet_6pcs",
+          "Instance": 3
+        }
+      ],
+      "MinNeeded": 2,
+      "MaxNeeded": 2,
+      "SpawnOnlyNeeded": false,
+      "WorldMarkerShowDistance": 15,
+      "LocationsShownOnMap": [
+        {
+          "Location": {
+            "X": 352078.75,
+            "Y": -522353.625,
+            "Z": 7632.173
+          },
+          "SizeFactor": 1.5
+        },
+        {
+          "Location": {
+            "X": -756582.312,
+            "Y": -674923.625,
+            "Z": 10708.137
+          },
+          "SizeFactor": 1.5
+        }
+      ]
+    }
+  ]
+}

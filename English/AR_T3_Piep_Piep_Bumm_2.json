@@ -1,0 +1,25 @@
+{
+  "AssociatedNpc": "Armorer",
+  "Tier": 3,
+  "Title": "Piep Piep Bumm 2",
+  "Description": "That looked funny. Now go and cause more explosions.",
+  "TimeLimitHours": 168.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 8000,
+      "Fame": 65
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "eliminate Beeper",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Elimination",
+      "Amount": 20,
+      "TargetCharacters": [
+        "BP_Zombie_SuicideVest"
+      ]
+    }
+  ]
+}

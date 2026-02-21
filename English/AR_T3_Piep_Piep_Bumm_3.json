@@ -1,0 +1,28 @@
+{
+  "AssociatedNpc": "Armorer",
+  "Tier": 3,
+  "Title": "Piep Piep Bumm 3",
+  "Description": "I think it would be more fun to blow up some Beeper with an RPG. go test that out for me, will ya?",
+  "TimeLimitHours": 168.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 10000,
+      "Fame": 55
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "eliminate Beeper with RPG",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Elimination",
+      "Amount": 5,
+      "TargetCharacters": [
+        "BP_Zombie_SuicideVest"
+      ],
+      "AllowedWeapons": [
+        "Weapon_RPG7"
+      ]
+    }
+  ]
+}

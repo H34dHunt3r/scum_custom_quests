@@ -1,0 +1,31 @@
+{
+  "AssociatedNpc": "Banker",
+  "Tier": 1,
+  "Title": "Buchführung",
+  "Description": "Kannst du mir ein paar neue Bücher besorgen, damit ich weiter Buchführen kann?",
+  "TimeLimitHours": 96.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 900,
+      "Fame": 5
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Bücher sammeln",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": false,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Diary"
+          ],
+          "RequiredNum": 10
+        }
+      ]
+    }
+  ]
+}

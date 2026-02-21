@@ -1,0 +1,87 @@
+{
+  "AssociatedNpc": "Armorer",
+  "Tier": 3,
+  "Title": "Target practice 2",
+  "Description": "Most of these newbies need mor practice. Go fetch me some more materials to build practice targets.",
+  "TimeLimitHours": 96.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 6000,
+      "Fame": 55
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Fetch spraycans",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": false,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "ColorCan_AmberYellow",
+            "ColorCan_BaronBrown",
+            "ColorCan_Black",
+            "ColorCan_BrownRed",
+            "ColorCan_BrownYellow",
+            "ColorCan_CandyPink",
+            "ColorCan_CherryRed",
+            "ColorCan_ColdCyan",
+            "ColorCan_CottonCandy",
+            "ColorCan_ColdGrey",
+            "ColorCan_DarkBrown",
+            "ColorCan_DarkGreen",
+            "ColorCan_DarkGrey",
+            "ColorCan_DarkUrban",
+            "ColorCan_EarthGreen",
+            "ColorCan_DeepOrange",
+            "ColorCan_EarthGrey",
+            "ColorCan_EarthRed",
+            "ColorCan_EarthYellow",
+            "ColorCan_FireEngineRed",
+            "ColorCan_FlatBrown",
+            "ColorCan_FlatGrey",
+            "ColorCan_FlatWhite",
+            "ColorCan_ForestGreen",
+            "ColorCan_GalaxyBlue",
+            "ColorCan_GalaxyGrey",
+            "ColorCan_GalaxyWhite",
+            "ColorCan_GreenCyan",
+            "ColorCan_HazyPurple",
+            "ColorCan_LightBrown",
+            "ColorCan_LightUrban",
+            "ColorCan_LimeGreen",
+            "ColorCan_NavyBlue",
+            "ColorCan_NavyGrey",
+            "ColorCan_NavyWhite",
+            "ColorCan_PoliceBlue",
+            "ColorCan_RedChocolate",
+            "ColorCan_RedGrey",
+            "ColorCan_SnowWhite",
+            "ColorCan_VelvetBrown",
+            "ColorCan_WarmGrey"
+          ],
+          "RequiredNum": 5
+        }
+      ]
+    },
+    {
+      "TrackingCaption": "Fetch plank bundles",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": false,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Bundle_Wooden_Plank"
+          ],
+          "RequiredNum": 5
+        }
+      ]
+    }
+  ]
+}

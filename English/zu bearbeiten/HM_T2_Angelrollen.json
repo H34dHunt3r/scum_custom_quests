@@ -1,0 +1,41 @@
+{
+  "AssociatedNpc": "Harbourmaster",
+  "Tier": 2,
+  "Title": "Angelrollen",
+  "Description": "Langsam gehen mir die Angelrollen aus. Kannst du mir mehr besorgen?",
+  "TimeLimitHours": 96.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 3000,
+      "Fame": 18,
+      "TradeDeals": [
+        {
+          "Item": "FishingReel",
+          "Price": 150,
+          "Amount": 1,
+          "Fame": 0,
+          "AllowExcluded": true
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Sammel Angelrollen",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": false,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "FishingReelPro",
+            "FishingReel"
+          ],
+          "RequiredNum": 3
+        }
+      ]
+    }
+  ]
+}

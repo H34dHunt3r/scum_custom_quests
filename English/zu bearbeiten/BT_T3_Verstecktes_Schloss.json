@@ -1,0 +1,43 @@
+{
+  "AssociatedNpc": "Bartender",
+  "Tier": 3,
+  "Title": "Verstecktes Schloss",
+  "Description": "Ich hab gehört, dass es 1 verstecktes Schloss auf der Insel gibt. Kannst du für mich herausfinden ob sich ein Besuch lohnt?",
+  "TimeLimitHours": 72.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 3500,
+      "Fame": 29
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Schloss begutachtet",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Interaction",
+      "Locations": [
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/D_1_Castle_04.D_1_Castle_04:PersistentLevel.BP_OldDoor_01_GEN_VARIABLE_BP_OldDoor_01_C_CAT_309.Door Mesh",
+          "FallbackTransform": "-544373.312500,419493.437500,88489.218750|0.000000,-0.000048,0.000000|1.336000,1.336000,1.070000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/Castle/Objects/Doors_Meshes/SM_OldDoor_01.SM_OldDoor_01",
+          "Instance": 4
+        }
+      ],
+      "MinNeeded": 1,
+      "MaxNeeded": 1,
+      "SpawnOnlyNeeded": false,
+      "WorldMarkerShowDistance": 10,
+      "LocationsShownOnMap": [
+        {
+          "Location": {
+            "X": -544465.25,
+            "Y": 419623.906,
+            "Z": 88568.773
+          },
+          "SizeFactor": 3.0
+        }
+      ]
+    }
+  ]
+}

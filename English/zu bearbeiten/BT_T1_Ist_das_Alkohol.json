@@ -1,0 +1,53 @@
+{
+  "AssociatedNpc": "Bartender",
+  "Tier": 1,
+  "Title": "Ist das Alkohol?",
+  "Description": "Schau nach was an dem Gerücht vom Selbstgemachten Alkohol in Spickovina dran ist und erledige ein paar der Schwarzbrenner (Puppen).",
+  "TimeLimitHours": 96.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 3750,
+      "Fame": 18
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Prüfen den Ort",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Interaction",
+      "Locations": [
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/B_2_Spickovina_01_Interior_05.B_2_Spickovina_01_Interior_05:PersistentLevel.BP_CB_03_A_INT_9.SM_Soviet_Toilet_V02",
+          "FallbackTransform": "-63714.898438,-82438.195312,36382.679688|-0.110171,-151.275620,-0.127167|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Objects/Indoor/Soviet_Bathroom/Soviet_Toilets/SM_Soviet_Toilet_V02.SM_Soviet_Toilet_V02",
+          "Instance": 5
+        }
+      ],
+      "MinNeeded": 1,
+      "MaxNeeded": 1,
+      "SpawnOnlyNeeded": false,
+      "WorldMarkerShowDistance": 15,
+      "LocationsShownOnMap": [
+        {
+          "Location": {
+            "X": -63658.289,
+            "Y": -82487.977,
+            "Z": 36475.152
+          },
+          "SizeFactor": 2.5
+        }
+      ]
+    },
+    {
+      "TrackingCaption": "Puppen getötet",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Elimination",
+      "Amount": 10,
+      "TargetCharacters": [
+        "Puppet"
+      ]
+    }
+  ]
+}

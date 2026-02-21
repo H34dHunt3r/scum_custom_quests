@@ -1,0 +1,39 @@
+{
+  "AssociatedNpc": "Bartender",
+  "Tier": 2,
+  "Title": "Kochkurs 1",
+  "Description": "Ich will mein Menü etwas erweitern. kannst du mir ein paar Kochbücher besorgen?",
+  "TimeLimitHours": 96.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 2500,
+      "Fame": 23
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Kochbuch",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": false,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Book_Cooking_BBQ",
+            "Book_Cooking_Cake",
+            "Book_Cooking_Casseroles",
+            "Book_Cooking_Drinks",
+            "Book_Cooking_Pasta",
+            "Book_Cooking_Pizza",
+            "Book_Cooking_Rice",
+            "Book_Cooking_Soup",
+            "Book_Cooking_Stew"
+          ],
+          "RequiredNum": 5
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "AssociatedNpc": "Bartender",
+  "Tier": 1,
+  "Title": "Käsefabrik",
+  "Description": "Wusstest du schon, dass es eine Käsefabrik gibt? Nein? Dann schau doch mal hier nach.",
+  "TimeLimitHours": 96.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 1500,
+      "Fame": 10
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Käsekisten begutachtet",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Interaction",
+      "Locations": [
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/A_2_Cheese_Factory_Int_01.A_2_Cheese_Factory_Int_01:PersistentLevel.BP_Cheese_Factory3.Box_Combined",
+          "FallbackTransform": "-116854.210938,-354735.968750,15181.580078|0.000000,-60.568954,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/Cheese_Factory/Custom_Assets/Cheese_Box/SM_Cheese_Box_Combined.SM_Cheese_Box_Combined",
+          "Instance": 1
+        }
+      ],
+      "MinNeeded": 1,
+      "MaxNeeded": 1,
+      "SpawnOnlyNeeded": false,
+      "WorldMarkerShowDistance": 25,
+      "LocationsShownOnMap": [
+        {
+          "Location": {
+            "X": -117020.375,
+            "Y": -354619.094,
+            "Z": 15220.592
+          },
+          "SizeFactor": 1.0
+        }
+      ]
+    }
+  ]
+}

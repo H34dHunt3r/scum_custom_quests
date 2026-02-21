@@ -1,0 +1,63 @@
+{
+  "AssociatedNpc": "Harbourmaster",
+  "Tier": 2,
+  "Title": "Austehende Lieferung",
+  "Description": "Moin, eigentlich erwarte Ich eine Lieferung, aber der LKW ist jetzt schon 2 Tage überfällig.  Laut dem DHL Livetracker sollte dieser an einer der 2 Positionen sein. kannst du das bitte mal überprüfen?",
+  "TimeLimitHours": 96.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 4000,
+      "Fame": 20,
+      "Skills": [
+        {
+          "Skill": "Awareness",
+          "Experience": 1000
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "LKW gefunden",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Interaction",
+      "Locations": [
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/Landscape_Z_0_4b.Landscape_Z_0_4b:PersistentLevel.SM_BigTruckTrailer_CompleteMeshes_OPT_02_2.SM_BigTruckTrailer_CompleteMeshes",
+          "FallbackTransform": "-615272.375000,-678316.062500,2653.017578|-0.618077,141.540482,0.662468|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Objects/Outdoor/BigTruckTrailer/Meshes/SM_BigTruckTrailer_CompleteMeshes_OPT_02.SM_BigTruckTrailer_CompleteMeshes_OPT_02",
+          "Instance": 2
+        },
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/B_2_Spickovina_01.B_2_Spickovina_01:PersistentLevel.SM_BigTruckTrailer_CompleteMeshes_OPT_02_616.SM_BigTruckTrailer_CompleteMeshes",
+          "FallbackTransform": "-62283.375000,-79915.812500,36436.734375|-0.989927,112.612778,0.000001|0.876000,0.876000,0.876000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Objects/Outdoor/BigTruckTrailer/Meshes/SM_BigTruckTrailer_CompleteMeshes_OPT_01.SM_BigTruckTrailer_CompleteMeshes_OPT_01",
+          "Instance": 1
+        }
+      ],
+      "MinNeeded": 1,
+      "MaxNeeded": 1,
+      "SpawnOnlyNeeded": false,
+      "WorldMarkerShowDistance": 25,
+      "LocationsShownOnMap": [
+        {
+          "Location": {
+            "X": -615014.562,
+            "Y": -678109.25,
+            "Z": 2749.028
+          },
+          "SizeFactor": 1.3
+        },
+        {
+          "Location": {
+            "X": -62120.188,
+            "Y": -79689.266,
+            "Z": 36524.395
+          },
+          "SizeFactor": 1.3
+        }
+      ]
+    }
+  ]
+}

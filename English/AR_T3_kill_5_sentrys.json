@@ -1,0 +1,26 @@
+{
+  "AssociatedNpc": "Armorer",
+  "Tier": 3,
+  "Title": "kill 5 sentrys",
+  "Description": "Kill 5 of these ugly clankers, fairly easy right?",
+  "TimeLimitHours": 96.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 25000,
+	  "Fame": 25
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "kill sentry",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Elimination",
+      "Amount": 5,
+      "TargetCharacters": [
+        "SentryOld",
+        "Sentry"
+      ]
+    }
+  ]
+}

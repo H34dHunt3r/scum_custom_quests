@@ -1,0 +1,46 @@
+{
+  "AssociatedNpc": "Bartender",
+  "Tier": 2,
+  "Title": "Gläser",
+  "Description": "Ein paar Gäste hab trotz Gläserpfand beschlossen die Gläser mitzunehmen. Kannst du mir 10 neue Gläser beschaffen?",
+  "TimeLimitHours": 96.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 2000,
+      "Fame": 17,
+      "Skills": [
+        {
+          "Skill": "Cooking",
+          "Experience": 1000
+        }
+      ],
+      "TradeDeals": [
+        {
+          "Item": "Hip_Flask",
+          "Price": 50,
+          "Amount": 1,
+          "Fame": 25,
+          "AllowExcluded": true
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Gläser gesammelt",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": false,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Glass"
+          ],
+          "RequiredNum": 10
+        }
+      ]
+    }
+  ]
+}

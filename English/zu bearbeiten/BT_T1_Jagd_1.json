@@ -1,0 +1,88 @@
+{
+  "AssociatedNpc": "Bartender",
+  "Tier": 1,
+  "Title": "Jagd 1",
+  "Description": "Bei den alten Jagdlager soll es massenhaft Tiere geben. Kannst du das für mich überprüfen?",
+  "TimeLimitHours": 96.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 3500,
+      "Fame": 15,
+      "Skills": [
+        {
+          "Skill": "Camouflage",
+          "Experience": 1000
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Jagdlager überprüfen",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Interaction",
+      "Locations": [
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/Landscape_B_4_1d.Landscape_B_4_1d:PersistentLevel.BP_Military_Tent_02_0.StaticMeshComponent0",
+          "FallbackTransform": "455503.125000,-186016.562500,1971.027344|0.000000,-5.353916,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Objects/Outdoor/Military/Tent_Military/Objects/SM_Military_Tent_02.SM_Military_Tent_02"
+        },
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/C_3_Camp_01.C_3_Camp_01:PersistentLevel.BP_Military_Tent_02_0.StaticMeshComponent0",
+          "FallbackTransform": "216474.812500,44941.625000,27624.050781|0.000000,179.852966,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Objects/Outdoor/Military/Tent_Military/Objects/SM_Military_Tent_02.SM_Military_Tent_02",
+          "Instance": 1
+        },
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/B_2_Shooting_Range_01.B_2_Shooting_Range_01:PersistentLevel.SM_Military_Tent_6.StaticMeshComponent0",
+          "FallbackTransform": "-214979.937500,-113683.562500,37260.007812|0.000000,80.367180,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Objects/Outdoor/Military/Tent_Military/Objects/SM_Military_Tent_01.SM_Military_Tent_01"
+        },
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/B_2_Military_Camp.B_2_Military_Camp:PersistentLevel.BP_Military_Tent_01_2.StaticMeshComponent0",
+          "FallbackTransform": "-194095.562500,-180731.625000,35640.171875|0.000000,104.536285,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Objects/Outdoor/Military/Tent_Military/Objects/SM_Military_Tent_01.SM_Military_Tent_01"
+        }
+      ],
+      "MinNeeded": 4,
+      "MaxNeeded": 4,
+      "SpawnOnlyNeeded": false,
+      "WorldMarkerShowDistance": 35,
+      "LocationsShownOnMap": [
+        {
+          "Location": {
+            "X": 455134.0,
+            "Y": -185584.422,
+            "Z": 2064.127
+          },
+          "SizeFactor": 1.0
+        },
+        {
+          "Location": {
+            "X": 216850.0,
+            "Y": 44545.77,
+            "Z": 27718.795
+          },
+          "SizeFactor": 1.0
+        },
+        {
+          "Location": {
+            "X": -215195.391,
+            "Y": -113837.258,
+            "Z": 37348.141
+          },
+          "SizeFactor": 1.0
+        },
+        {
+          "Location": {
+            "X": -194072.719,
+            "Y": -180611.719,
+            "Z": 35982.684
+          },
+          "SizeFactor": 1.0
+        }
+      ]
+    }
+  ]
+}

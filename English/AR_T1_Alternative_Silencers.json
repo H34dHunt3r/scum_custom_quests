@@ -1,0 +1,70 @@
+{
+  "AssociatedNpc": "Armorer",
+  "Tier": 1,
+  "Title": "Alternative silencers",
+  "Description": "You don't have to buy a silencer everytime. If needed you can craft your own. Try all 3 of them out.",
+  "TimeLimitHours": 24.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 500,
+      "Skills": [
+        {
+          "Skill": "Handgun",
+          "Experience": 1000
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Bottle silencer",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": false,
+      "PlayerKeepsItems": true,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "WeaponSuppressor_ImprovisedBottle_White",
+            "WeaponSuppressor_ImprovisedBottle_Grey"
+          ],
+          "RequiredNum": 1
+        }
+      ]
+    },
+    {
+      "TrackingCaption": "Can silencer",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": false,
+      "PlayerKeepsItems": true,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "WeaponSuppressor_ImprovisedCan_Grey",
+            "WeaponSuppressor_ImprovisedCan_Red"
+          ],
+          "RequiredNum": 1
+        }
+      ]
+    },
+    {
+      "TrackingCaption": "Oilcan silencer",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": false,
+      "PlayerKeepsItems": true,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "WeaponSuppressor_ImprovisedOilCan_01"
+          ],
+          "RequiredNum": 1
+        }
+      ]
+    }
+  ]
+}

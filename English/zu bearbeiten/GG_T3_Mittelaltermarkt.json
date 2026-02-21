@@ -1,0 +1,95 @@
+{
+  "AssociatedNpc": "GeneralGoods",
+  "Tier": 3,
+  "Title": "Mittelaltermarkt",
+  "Description": "Ich will einen kleinen Mittelaltermarkt veranstalten. Kannst du mir ein paar Dinge dafür besorgen? 3 Robin Hood Sets sollten reichen.",
+  "TimeLimitHours": 96.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 10000,
+      "Fame": 50
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Armschutz sammeln",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": true,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "RH_Arm_Guard"
+          ],
+          "RequiredNum": 3
+        }
+      ]
+    },
+    {
+      "TrackingCaption": "Spitzhüte sammeln",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": true,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "RH_Arm_Guard"
+          ],
+          "RequiredNum": 3
+        }
+      ]
+    },
+    {
+      "TrackingCaption": "Jacken sammeln",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": true,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "RH_Jacket"
+          ],
+          "RequiredNum": 3
+        }
+      ]
+    },
+    {
+      "TrackingCaption": "Schuhe sammeln",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": true,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "RH_Shoe_01"
+          ],
+          "RequiredNum": 3
+        }
+      ]
+    },
+    {
+      "TrackingCaption": "Strumpfhosen sammeln",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": true,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "RH_Tights"
+          ],
+          "RequiredNum": 3
+        }
+      ]
+    }
+  ]
+}

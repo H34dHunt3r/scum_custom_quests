@@ -1,0 +1,34 @@
+{
+  "AssociatedNpc": "Doctor",
+  "Tier": 1,
+  "Title": "Füße 1",
+  "Description": "Ein paar Lemuren waren hier und meinten sie brauchen ein paar Puppenfüße um die königlichen füße zu beschützen.",
+  "TimeLimitHours": 96.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 2500,
+      "Fame": 10
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Füße sammeln",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": false,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Prisoner_Left_Foot",
+            "Prisoner_Right_Foot",
+            "Zombie_01_Left_Foot",
+            "Zombie_01_Right_Foot"
+          ],
+          "RequiredNum": 5
+        }
+      ]
+    }
+  ]
+}

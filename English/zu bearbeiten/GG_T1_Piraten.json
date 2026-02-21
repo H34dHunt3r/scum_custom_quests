@@ -1,0 +1,151 @@
+{
+  "AssociatedNpc": "GeneralGoods",
+  "Tier": 1,
+  "Title": "Piraten",
+  "Description": "Einige Piraten haben die Leuchtürme manipuliert. Kannst du 4 der 8 Leuchttürme überprüfen? Jemand anderes wird dann die anderen 4 übernehmen.",
+  "TimeLimitHours": 96.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 6000,
+      "CurrencyGold": 0,
+      "Fame": 43,
+      "TradeDeals": [
+        {
+          "Item": "BP_HeadLamp",
+          "Price": 50,
+          "Amount": 3,
+          "Fame": 0,
+          "AllowExcluded": true
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Leuchturmlampen überprüfen",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Interaction",
+      "Locations": [
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/Landscape_B_4_2d.Landscape_B_4_2d:PersistentLevel.BP_LightHouse_Rotating_Light_2.SM_Light_01",
+          "FallbackTransform": "552554.250000,-157587.937500,3924.919922|0.000000,-73.000206,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/lighthouse/SM_Light_01.SM_Light_01",
+          "Instance": 2
+        },
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/Landscape_A_4_4b.Landscape_A_4_4b:PersistentLevel.BP_LightHouse_Rotating_Light3_2.SM_Light_01",
+          "FallbackTransform": "555067.500000,-408529.093750,5885.721680|0.000000,64.499466,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/lighthouse/SM_Light_01.SM_Light_01",
+          "Instance": 2
+        },
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/Landscape_Z_4_3c.Landscape_Z_4_3c:PersistentLevel.BP_LightHouse_Rotating_Light3_2.SM_Light_01",
+          "FallbackTransform": "354570.250000,-653961.687500,6865.745605|0.000000,60.999596,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/lighthouse/SM_Light_01.SM_Light_01",
+          "Instance": 2
+        },
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/Landscape_Z_4_4b.Landscape_Z_4_4b:PersistentLevel.BP_LightHouse_Rotating_Light_2.SM_Light_01",
+          "FallbackTransform": "602641.125000,-677427.937500,4284.856445|0.000000,-75.000282,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/lighthouse/SM_Light_01.SM_Light_01",
+          "Instance": 2
+        },
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/Landscape_Z_3_2b.Landscape_Z_3_2b:PersistentLevel.BP_LightHouse_Rotating_Light5_2.SM_Light_01",
+          "FallbackTransform": "307912.062500,-876866.875000,9517.806641|0.000000,-15.500077,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/lighthouse/SM_Light_01.SM_Light_01",
+          "Instance": 2
+        },
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/Landscape_Z_2_2.Landscape_Z_2_2:PersistentLevel.BP_LightHouse_Rotating_Light_0.SM_Light_01",
+          "FallbackTransform": "-69360.156250,-871585.312500,4645.216797|0.000000,-49.000271,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/lighthouse/SM_Light_01.SM_Light_01",
+          "Instance": 2
+        },
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/Landscape_A_2_1c.Landscape_A_2_1c:PersistentLevel.BP_LightHouse_Rotating_Light2_2.SM_Light_01",
+          "FallbackTransform": "-241111.265625,-495609.562500,6457.458984|0.000000,-31.000259,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/lighthouse/SM_Light_01.SM_Light_01",
+          "Instance": 2
+        },
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/Landscape_Z_0_3.Landscape_Z_0_3:PersistentLevel.BP_LightHouse_Rotating_Light_2.SM_Light_01",
+          "FallbackTransform": "-865235.750000,-727795.937500,5409.168945|0.000000,115.499123,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/lighthouse/SM_Light_01.SM_Light_01",
+          "Instance": 2
+        }
+      ],
+      "MinNeeded": 4,
+      "MaxNeeded": 4,
+      "SpawnOnlyNeeded": false,
+      "WorldMarkerShowDistance": 50,
+      "LocationsShownOnMap": [
+        {
+          "Location": {
+            "X": 552526.688,
+            "Y": -157692.047,
+            "Z": 3726.303
+          },
+          "SizeFactor": 2.0
+        },
+        {
+          "Location": {
+            "X": 554940.563,
+            "Y": -408515.0,
+            "Z": 5669.721
+          },
+          "SizeFactor": 2.0
+        },
+        {
+          "Location": {
+            "X": 354560.25,
+            "Y": -654076.5,
+            "Z": 6665.979
+          },
+          "SizeFactor": 2.0
+        },
+        {
+          "Location": {
+            "X": 602753.25,
+            "Y": -677451.938,
+            "Z": 4085.082
+          },
+          "SizeFactor": 2.0
+        },
+        {
+          "Location": {
+            "X": 307783.719,
+            "Y": -876857.5,
+            "Z": 9318.015
+          },
+          "SizeFactor": 2.0
+        },
+        {
+          "Location": {
+            "X": -69338.758,
+            "Y": -871678.062,
+            "Z": 4446.308
+          },
+          "SizeFactor": 2.0
+        },
+        {
+          "Location": {
+            "X": -241647.484,
+            "Y": -495607.656,
+            "Z": 6257.462
+          },
+          "SizeFactor": 2.0
+        },
+        {
+          "Location": {
+            "X": -865342.438,
+            "Y": -727833.375,
+            "Z": 5209.403
+          },
+          "SizeFactor": 2.0
+        }
+      ]
+    }
+  ]
+}

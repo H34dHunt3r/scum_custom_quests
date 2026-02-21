@@ -1,0 +1,31 @@
+{
+  "AssociatedNpc": "Bartender",
+  "Tier": 1,
+  "Title": "Musik",
+  "Description": "Ich will ein Wenig Musik im meiner Bar abspielen. Kannst du mir 2 Boomboxen besorgen?",
+  "TimeLimitHours": 96.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 2000,
+      "Fame": 10
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Boombox Sammeln",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": false,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "BoomBox_01"
+          ],
+          "RequiredNum": 2
+        }
+      ]
+    }
+  ]
+}

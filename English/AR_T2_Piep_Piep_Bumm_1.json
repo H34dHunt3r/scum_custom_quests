@@ -1,0 +1,25 @@
+{
+  "AssociatedNpc": "Armorer",
+  "Tier": 2,
+  "Title": "Piep Piep Bumm 1",
+  "Description": "Do you like to blow up some things? Then go an Kill some of these annoying beeping thingies.",
+  "TimeLimitHours": 168.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 4000,
+      "Fame": 35
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "eliminate Beeper",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Elimination",
+      "Amount": 10,
+      "TargetCharacters": [
+        "BP_Zombie_SuicideVest"
+      ]
+    }
+  ]
+}

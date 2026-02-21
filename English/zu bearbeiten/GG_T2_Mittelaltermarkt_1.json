@@ -1,0 +1,69 @@
+{
+  "AssociatedNpc": "GeneralGoods",
+  "Tier": 2,
+  "Title": "Mittelaltermarkt 1",
+  "Description": "Ich will einen kleinen Mittelaltermarkt veranstalten. Kannst du mir ein paar Dinge dafür besorgen? 3 Schwerter, Helme und Bögen sollten reichen.",
+  "TimeLimitHours": 96.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 5000,
+      "Fame": 30
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Mittelalterschwerter sammeln",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": true,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "1H_Medieval_Sword"
+          ],
+          "RequiredNum": 3
+        }
+      ]
+    },
+    {
+      "TrackingCaption": "Bögen sammeln",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": true,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Recurve_Bow",
+            "Recurve_Bow_100",
+            "Recurve_Bow_50",
+            "Recurve_Bow_60",
+            "Recurve_Bow_70",
+            "Recurve_Bow_80",
+            "Recurve_Bow_90"
+          ],
+          "RequiredNum": 3
+        }
+      ]
+    },
+    {
+      "TrackingCaption": "Mittelalterhelme sammeln",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": true,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Medieval_Helmet_01"
+          ],
+          "RequiredNum": 3
+        }
+      ]
+    }
+  ]
+}

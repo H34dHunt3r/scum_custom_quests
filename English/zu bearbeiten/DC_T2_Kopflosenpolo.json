@@ -1,0 +1,32 @@
+{
+  "AssociatedNpc": "Doctor",
+  "Tier": 2,
+  "Title": "Kopflosenpolo",
+  "Description": "Sir Nicholas de Mimsy-Porpington möchte auch endlich am Kopflosenpolo teilnehmen und hat bei mir einen Kopf bestellt. Kannst du mir 3 Puppenköpfe oder NPC Köpfe besorgen, damit er ein bisschen auswahl hat ?",
+  "TimeLimitHours": 96.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 1500,
+      "CurrencyGold": 12
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Köpfe sammeln",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": false,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Prisoner_Head",
+            "Zombie_01_Head"
+          ],
+          "RequiredNum": 3
+        }
+      ]
+    }
+  ]
+}

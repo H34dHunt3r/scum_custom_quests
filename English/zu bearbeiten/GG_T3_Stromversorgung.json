@@ -1,0 +1,84 @@
+{
+  "AssociatedNpc": "GeneralGoods",
+  "Tier": 3,
+  "Title": "Stromversorgung",
+  "Description": "In letzter Zeit fällt hier immer wieder der Strom aus. Kannst du die Turbinen im Staudamm überprüfen?",
+  "TimeLimitHours": 24.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 5000,
+      "Fame": 15,
+      "TradeDeals": [
+        {
+          "Item": "ElectricityGenerator",
+          "Price": 3000,
+          "Amount": 1,
+          "Fame": 50,
+          "AllowExcluded": true
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Überprüfe die Turbinen",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Interaction",
+      "Locations": [
+        {
+			"AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/C_2_Power_Plant.C_2_Power_Plant:PersistentLevel.BP_Dam_Power_Building_6.StaticMeshComponent06",
+			"FallbackTransform": "-13443.728516,257960.375000,44199.257812|0.000000,84.515282,0.000000|1.001000,1.001000,1.001000",
+			"VisibleMesh": "/Game/ConZ_Files/Models/Buildings/Dam/SM_Power_turbine.SM_Power_turbine",
+			"Instance": 6
+		},
+		{
+			"AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/C_2_Power_Plant.C_2_Power_Plant:PersistentLevel.BP_Dam_Power_Building_6.StaticMeshComponent05",
+			"FallbackTransform": "-13607.391602,256255.687500,44199.257812|0.000000,84.515282,0.000000|1.001000,1.001000,1.001000",
+			"VisibleMesh": "/Game/ConZ_Files/Models/Buildings/Dam/SM_Power_turbine.SM_Power_turbine",
+			"Instance": 6
+		},
+		{
+			"AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/C_2_Power_Plant.C_2_Power_Plant:PersistentLevel.BP_Dam_Power_Building_6.StaticMeshComponent04",
+			"FallbackTransform": "-13771.060547,254551.015625,44199.257812|0.000000,84.515282,0.000000|1.001000,1.001000,1.001000",
+			"VisibleMesh": "/Game/ConZ_Files/Models/Buildings/Dam/SM_Power_turbine.SM_Power_turbine",
+			"Instance": 6
+		},
+		{
+			"AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/C_2_Power_Plant.C_2_Power_Plant:PersistentLevel.BP_Dam_Power_Building_6.StaticMeshComponent03",
+			"FallbackTransform": "-13934.723633,252846.375000,44199.257812|0.000000,84.515282,0.000000|1.001000,1.001000,1.001000",
+			"VisibleMesh": "/Game/ConZ_Files/Models/Buildings/Dam/SM_Power_turbine.SM_Power_turbine",
+			"Instance": 6
+		},
+		{
+			"AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/C_2_Power_Plant.C_2_Power_Plant:PersistentLevel.BP_Dam_Power_Building_6.StaticMeshComponent02",
+			"FallbackTransform": "-14098.384766,251141.718750,44199.257812|0.000000,84.515282,0.000000|1.001000,1.001000,1.001000",
+			"VisibleMesh": "/Game/ConZ_Files/Models/Buildings/Dam/SM_Power_turbine.SM_Power_turbine",
+			"Instance": 6
+
+		},
+		{
+			"AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/C_2_Power_Plant.C_2_Power_Plant:PersistentLevel.BP_Dam_Power_Building_6.StaticMeshComponent01",
+			"FallbackTransform": "-14262.052734,249437.046875,44199.257812|0.000000,84.515282,0.000000|1.001000,1.001000,1.001000",
+			"VisibleMesh": "/Game/ConZ_Files/Models/Buildings/Dam/SM_Power_turbine.SM_Power_turbine",
+			"Instance": 6
+		}
+
+      ],
+      "MinNeeded": 6,
+      "MaxNeeded": 6,
+      "SpawnOnlyNeeded": false,
+      "WorldMarkerShowDistance": 20,
+      "LocationsShownOnMap": [
+        {
+          "Location": {
+            "X": -13771.060547,
+            "Y": 254551.015625,
+            "Z": 44199.257812
+          },
+          "SizeFactor": 2.0
+        }
+      ]
+    }
+  ]
+}

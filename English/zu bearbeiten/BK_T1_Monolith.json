@@ -1,0 +1,43 @@
+{
+  "AssociatedNpc": "Banker",
+  "Tier": 1,
+  "Title": "Monolith",
+  "Description": "Es scheint so, dass hier auch jemand einen Monolithen aufgestellt hat so wie damals 2020 in Utah oder 2025 bei Las Vegas. Überprüfe den Monolithen auf QR codes.",
+  "TimeLimitHours": 48.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 1700,
+      "Fame": 8
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Monolith betrachtet",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Interaction",
+      "Locations": [
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/Landscape_B_3_3.Landscape_B_3_3:PersistentLevel.SM_Monolith_01_2.StaticMeshComponent0",
+          "FallbackTransform": "21947.156250,-109395.937500,34358.156250|0.000000,0.000000,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Objects/Outdoor/Monolith/SM_Monolith_01.SM_Monolith_01",
+          "Instance": 3
+        }
+      ],
+      "MinNeeded": 1,
+      "MaxNeeded": 1,
+      "SpawnOnlyNeeded": false,
+      "WorldMarkerShowDistance": 5,
+      "LocationsShownOnMap": [
+        {
+          "Location": {
+            "X": 21810.238,
+            "Y": -109417.867,
+            "Z": 34467.484
+          },
+          "SizeFactor": 1.0
+        }
+      ]
+    }
+  ]
+}

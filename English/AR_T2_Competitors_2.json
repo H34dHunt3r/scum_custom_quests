@@ -1,0 +1,25 @@
+{
+  "AssociatedNpc": "Armorer",
+  "Tier": 2,
+  "Title": "Competitors 2",
+  "Description": "Kill more scavangergroups from my competitors.",
+  "TimeLimitHours": 96.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 10000,
+      "Fame": 50
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "eliminate NPCs",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Elimination",
+      "Amount": 20,
+      "TargetCharacters": [
+        "ArmedNPC"
+      ]
+    }
+  ]
+}
