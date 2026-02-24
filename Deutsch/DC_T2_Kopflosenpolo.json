@@ -7,7 +7,7 @@
   "RewardPool": [
     {
       "CurrencyNormal": 1500,
-      "CurrencyGold": 12
+      "Fame": 12
     }
   ],
   "Conditions": [
