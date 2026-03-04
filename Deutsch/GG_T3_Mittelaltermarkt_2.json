@@ -1,7 +1,7 @@
 {
   "AssociatedNpc": "GeneralGoods",
   "Tier": 3,
-  "Title": "Mittelaltermarkt",
+  "Title": "Mittelaltermarkt 2",
   "Description": "Ich will einen kleinen Mittelaltermarkt veranstalten. Kannst du mir ein paar Dinge dafür besorgen? 3 Robin Hood Sets sollten reichen.",
   "TimeLimitHours": 96.0,
   "RewardPool": [
@@ -37,7 +37,7 @@
       "RequiredItems": [
         {
           "AcceptedItems": [
-            "RH_Arm_Guard"
+            "RH_Bycoket_01"
           ],
           "RequiredNum": 3
         }
