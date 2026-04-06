@@ -1,0 +1,52 @@
+{
+  "AssociatedNpc": "Doctor",
+  "Tier": 2,
+  "Title": "Gnadenengel",
+  "Description": "Früher gab es auch mal Vertreter der Kirche auf der Insel, die kostenlos die Gläubigen geheilt haben. Bring mir ein Foto von der Engelsstatue und ich gebe dir Rabatt auf Verbände.",
+  "TimeLimitHours": 96.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 2851,
+      "Fame": 22,
+      "TradeDeals": [
+        {
+          "Item": "Emergency_bandage_Big",
+          "Price": 50,
+          "Amount": 2,
+          "Fame": 25,
+          "AllowExcluded": true
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Engelstatue",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Interaction",
+      "Locations": [
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/C_3_Marof_03.C_3_Marof_03:PersistentLevel.BP_CCH_A_EXT_CHILD_02_2.SM_CityStatue_05",
+          "FallbackTransform": "182696.031250,233655.250000,31944.009766|0.000000,-94.193352,0.000000|0.751000,0.751000,0.751000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Objects/Outdoor/Chapel/Chapel_02/SM_CityStatue_05.SM_CityStatue_05",
+          "Instance": 3
+        }
+      ],
+      "MinNeeded": 1,
+      "MaxNeeded": 1,
+      "SpawnOnlyNeeded": true,
+      "WorldMarkerShowDistance": 5,
+      "LocationsShownOnMap": [
+        {
+          "Location": {
+            "X": 182720.563,
+            "Y": 233755.313,
+            "Z": 31966.799
+          },
+          "SizeFactor": 1.0
+        }
+      ]
+    }
+  ]
+}
