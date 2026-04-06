@@ -14,7 +14,6 @@ Eliminirung:
 Sammeln:
 	Banker Sammle Bücher, Lupe, Stifte
 	Banker sammel Zahn- und/oder Ohrenketten
-	Barkeeper Obst/Gemüse sammeln
+	Barkeeper Obst/Gemüse sammeln mit Verwechslungsgefahr bei ähnlichen Pflanzen
 	Sammle Rubbersheet
-	Mittelalter Markt sammle Mittelalter Schwerter Helme Bögen Strumpfhosen Jacke Armschutz hut
 	Fernsehabend Chips und Soda sammeln
