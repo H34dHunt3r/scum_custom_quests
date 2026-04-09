@@ -1,0 +1,49 @@
+{
+  "AssociatedNpc": "Harbourmaster",
+  "Tier": 3,
+  "Title": "Gestohlener Camper",
+  "Description": "Jemand hat meinen Camper kurz vor meinem Ruhestand geklaut. Kansst du ih für mich suchen?",
+  "TimeLimitHours": 96.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 2300,
+      "Fame": 15,
+      "Skills": [
+        {
+          "Skill": "Thievery",
+          "Experience": 10000
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Camper",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Interaction",
+      "Locations": [
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/Landscape_Z_2_4c.Landscape_Z_2_4c:PersistentLevel.SM_Camper_Trailer_02_2.StaticMesh",
+          "FallbackTransform": "-73380.109375,-619450.875000,1808.779297|-0.971704,50.483128,-1.178284|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Objects/Outdoor/Camping/Camper_Trailer_02/Objects/SM_Camper_Trailer_02.SM_Camper_Trailer_02",
+          "Instance": 2
+        }
+      ],
+      "MinNeeded": 1,
+      "MaxNeeded": 1,
+      "SpawnOnlyNeeded": true,
+      "WorldMarkerShowDistance": 5,
+      "LocationsShownOnMap": [
+        {
+          "Location": {
+            "X": -73694.289,
+            "Y": -619310.0,
+            "Z": 1925.92
+          },
+          "SizeFactor": 1.0
+        }
+      ]
+    }
+  ]
+}
