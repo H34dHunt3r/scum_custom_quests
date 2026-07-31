@@ -1,0 +1,37 @@
+{
+  "AssociatedNPC": "Armorer",
+  "Tier": 2,
+  "Title": "Gelbe Bunkerkarten ",
+  "Description": "Na Abschaum hast du schon mal so eine gelbe Bunkerkarte gesehen? Ich glaube nicht du Feigling. Wenn du in einer der Razorbunker gehst kannst du dort auf der oberen Ebene die Karten in Zombies oder Lootbaren Containern finden.",
+  "TimeLimitHours": 48.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 1500,
+      "Fame": 10,
+      "Skills": [
+        {
+          "Skill": "Stealth",
+          "Experience": 1000
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "1 gelbe Bunkerkarte",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": true,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "KeyCardBunker_Level02"
+          ],
+          "RequiredNum": 1
+        }
+      ]
+    }
+  ]
+}

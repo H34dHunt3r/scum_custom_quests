@@ -1,0 +1,66 @@
+{
+  "AssociatedNPC": "Armorer",
+  "Tier": 1,
+  "Title": "Tangladen",
+  "Description": "Hey Gefangener Ich hab gehört in den Tangläden in Sambor soll es ein neues Schwert geben. Kannst du dass mal für mich überprüfen?",
+  "TimeLimitHours": 48.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 1000,
+      "Fame": 10,
+      "TradeDeals": [
+        {
+          "Item": "2H_Wooden_Sword",
+          "Price": 3000,
+          "Amount": 1,
+          "Fame": 25,
+          "AllowExcluded": true
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Finde die Tangläden",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Interaction",
+      "Locations": [
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/D_4_Samobor_44_Block_02_Interior_01.D_4_Samobor_44_Block_02_Interior_01:PersistentLevel.BP_2_Floor_Building_02_Ruined_Chinese_4.InteriorStaticMesh18",
+          "Instance": 0,
+          "FallbackTransform": "364337.125000,318163.312500,20231.923828|0.000000,-9.999498,0.000000|1.201000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Objects/Indoor/Market/SM_Market_Desk_01_Flipped.SM_Market_Desk_01_Flipped"
+        },
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/D_4_Samobor_05_Block_02_Interior_01.D_4_Samobor_05_Block_02_Interior_01:PersistentLevel.BP_2_Floor_Building_02_Ruined_Chinese_Int.InteriorStaticMesh18",
+          "Instance": 0,
+          "FallbackTransform": "346802.156250,368864.125000,20691.246094|0.000000,-162.067001,0.000000|1.201000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Objects/Indoor/Market/SM_Market_Desk_01_Flipped.SM_Market_Desk_01_Flipped"
+        }
+      ],
+      "MinNeeded": 2,
+      "MaxNeeded": 2,
+      "SpawnOnlyNeeded": true,
+      "WorldMarkerShowDistance": 30,
+      "LocationsShownOnMap": [
+        {
+          "Location": {
+            "X": 364553.031,
+            "Y": 318294.594,
+            "Z": 20322.881
+          },
+          "SizeFactor": 2.0
+        },
+        {
+          "Location": {
+            "X": 346665.0,
+            "Y": 368609.688,
+            "Z": 20781.992
+          },
+          "SizeFactor": 2.0
+        }
+      ]
+    }
+  ]
+}

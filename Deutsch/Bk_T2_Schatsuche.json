@@ -1,0 +1,49 @@
+{
+  "AssociatedNpc": "Banker",
+  "Tier": 2,
+  "Title": "Schatzsuche",
+  "Description": "Ein ehemaliger Kunde behauptete, seine gesamten Ersparnisse in einem Tresor deponiert zu haben. Anschließend wurde er von Puppen vernascht. Der Bänker möchte wissen, ob dieser Ort real oder lediglich das Ergebnis einer schweren Hirnschädigung war.",
+  "TimeLimitHours": 48.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 1500,
+      "Fame": 10,
+      "Skills": [
+        {
+          "Skill": "Camouflage",
+          "Experience": 2400
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Finde den Tresor",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Interaction",
+      "Locations": [
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/B_1_Prkno_02_Interior_04.B_1_Prkno_02_Interior_04:PersistentLevel.BP_CB_Store_A_INT_2.SM_Crate_Pile_04_0",
+          "FallbackTransform": "-459696.250000,-108086.773438,31086.560547|0.000000,-160.250458,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Objects/Outdoor/Crate/SM_Crate_Pile_04.SM_Crate_Pile_04",
+          "Instance": 4
+        }
+      ],
+      "MinNeeded": 1,
+      "MaxNeeded": 1,
+      "SpawnOnlyNeeded": true,
+      "WorldMarkerShowDistance": 50,
+      "LocationsShownOnMap": [
+        {
+          "Location": {
+            "X": -459547.812,
+            "Y": -107923.141,
+            "Z": 31178.711
+          },
+          "SizeFactor": 0.5
+        }
+      ]
+    }
+  ]
+}

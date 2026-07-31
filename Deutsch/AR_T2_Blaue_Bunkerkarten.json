@@ -1,0 +1,37 @@
+{
+  "AssociatedNPC": "Armorer",
+  "Tier": 2,
+  "Title": "Blaue Bunkerkarten ",
+  "Description": "Na Abschaum hast du schon mal so eine Blaue Bunkerkarte gesehen? Ich glaube nicht du Feigling. Wenn du in einer der Razorbunker gehst kannst du dort auf der oberen Ebene die Karten in Zombies oder Lootbaren Containern finden.",
+  "TimeLimitHours": 48.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 1000,
+      "Fame": 10,
+      "Skills": [
+        {
+          "Skill": "Stealth",
+          "Experience": 1000
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "1 blaue Bunkerkarte",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": true,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "KeyCardBunker_Level01"
+          ],
+          "RequiredNum": 1
+        }
+      ]
+    }
+  ]
+}
