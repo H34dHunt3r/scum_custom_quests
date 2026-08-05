@@ -1,0 +1,37 @@
+{
+  "AssociatedNPC": "GeneralGoods",
+  "Tier": 1,
+  "Title": "Hippie-Leben",
+  "Description": "MeusMeine Eltern haben nie an mich geglaubt; sie wollten immer, dass ich studiere und Erfolg habe, aber ich gehe lieber meinen eigenen Weg. Ich brauche ein paar Perlen für ein Projekt – kannst du mir mit ein paar Glasaugen (Zombieaugen) aushelfen?",
+  "TimeLimitHours": 96.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 6000,
+      "Fame": 10,
+      "Skills": [
+        {
+          "Skill": "Survival",
+          "Experience": 10000
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Finde 10 Glasaugen.",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": false,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Puppet_Eye"
+          ],
+          "RequiredNum": 10
+        }
+      ]
+    }
+  ]
+}

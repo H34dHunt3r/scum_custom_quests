@@ -1,0 +1,48 @@
+{
+  "AssociatedNpc": "Armorer",
+  "Tier": 3,
+  "Title": "Rauch für den Boss",
+  "Description": "Der Waffenhändler will beim nächsten Treffen am Außenposten noch mehr Eindruck schinden. Er hat eine Idee: Jemand wirft ein paar Rauchgranaten, und dann tritt er – mit Sonnenbrille – aus der Rauchwolke hervor, untermalt von cooler Musik. Er zahlt gut, wenn du alles schnell liefern kannst.",
+  "TimeLimitHours": 48.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 3000,
+      "Fame": 15,
+      "Skills": [
+        {
+          "Skill": "Demolition",
+          "Experience": 3333
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "2 Rauchgranaten, ein Radio und eine Boombox",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": true,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Smoke_Grenade",
+            "Smoke_Grenade_Green",
+            "Smoke_Grenade_Red",
+            "Smoke_Grenade_Violet",
+            "Smoke_Grenade_Yellow"
+          ],
+          "RequiredNum": 2
+        },
+        {
+          "AcceptedItems": [
+            "BoomBox_01",
+            "Radio"
+          ],
+          "RequiredNum": 1
+        }
+      ]
+    }
+  ]
+}

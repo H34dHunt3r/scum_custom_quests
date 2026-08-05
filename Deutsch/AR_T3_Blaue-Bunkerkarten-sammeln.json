@@ -1,0 +1,37 @@
+{
+  "AssociatedNpc": "Armorer",
+  "Tier": 3,
+  "Title": "Karten hacken",
+  "Description": "Der Waffenhändler tüftelt an einer Methode, um abgelaufene Bunker-Zugangskarten zu hacken; bring ihm welche für das Reverse Engineering vorbei.",
+  "TimeLimitHours": 72.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 7500,
+      "Fame": 20,
+      "Skills": [
+        {
+          "Skill": "Thievery",
+          "Experience": 1500
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Hol dir 8 blaue Karten.",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": true,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "KeyCardBunker_Level01"
+          ],
+          "RequiredNum": 8
+        }
+      ]
+    }
+  ]
+}
