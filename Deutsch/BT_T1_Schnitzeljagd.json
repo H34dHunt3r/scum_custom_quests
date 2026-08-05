@@ -1,0 +1,161 @@
+{
+  "AssociatedNPC": "Bartender",
+  "Tier": 1,
+  "Title": "Schnitzeljagd",
+  "Description": "Ich habe vor eine Schnitzeljadgd zu planen, kannst du für mich diese fünf Orte abchecken, ob sie sicher sind?",
+  "TimeLimitHours": 96.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 10000,
+      "Fame": 35,
+      "Skills": [
+        {
+          "Skill": "Endurance",
+          "Experience": 1000
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Ort 1 A4",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Interaction",
+      "Locations": [
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/A_4_Airfield.A_4_Airfield:PersistentLevel.SM_Fire_Extignusher_Locker_02_155.StaticMeshComponent0",
+          "Instance": 0,
+          "FallbackTransform": "350998.062500,-519370.000000,7540.000000|0.000000,-120.000069,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/Fire_Station/Objects/SM_Fire_Extinguisher_Locker_02.SM_Fire_Extinguisher_Locker_02"
+        }
+      ],
+      "MinNeeded": 1,
+      "MaxNeeded": 1,
+      "SpawnOnlyNeeded": true,
+      "WorldMarkerShowDistance": 50,
+      "LocationsShownOnMap": [
+        {
+          "Location": {
+            "X": 351201.812,
+            "Y": -519417.719,
+            "Z": 7633.704
+          },
+          "SizeFactor": 1.0
+        }
+      ]
+    },
+    {
+      "TrackingCaption": "Ort 2 Z3",
+      "SequenceIndex": 1,
+      "CanBeAutoCompleted": true,
+      "Type": "Interaction",
+      "Locations": [
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/Z_3_Motocross_Track.Z_3_Motocross_Track:PersistentLevel.SM_Portapotty_01HISMA.HierarchicalInstancedStaticMesh",
+          "Instance": 0,
+          "FallbackTransform": "263775.937500,-756491.500000,11613.538086|0.000000,-54.678356,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Objects/Outdoor/Construction_Site_Props/SM_Porta_Potty_01.SM_Porta_Potty_01"
+        }
+      ],
+      "MinNeeded": 1,
+      "MaxNeeded": 1,
+      "SpawnOnlyNeeded": true,
+      "WorldMarkerShowDistance": 50,
+      "LocationsShownOnMap": [
+        {
+          "Location": {
+            "X": 263906.531,
+            "Y": -756597.5,
+            "Z": 11707.345
+          },
+          "SizeFactor": 1.0
+        }
+      ]
+    },
+    {
+      "TrackingCaption": "Ort 3 Z0",
+      "SequenceIndex": 2,
+      "CanBeAutoCompleted": true,
+      "Type": "Interaction",
+      "Locations": [
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/Z_0_Airfield_07.Z_0_Airfield_07:PersistentLevel.BP_Air_Control_Tower_Small2_2.Air_Control_Tower_Small",
+          "Instance": 0,
+          "FallbackTransform": "-752480.687500,-688285.437500,10668.250000|0.000000,-90.000053,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/Airplane_Hangar/Air_Traffic_Control_Tower_Small/SM_Air_Control_Tower_Small.SM_Air_Control_Tower_Small"
+        }
+      ],
+      "MinNeeded": 1,
+      "MaxNeeded": 1,
+      "SpawnOnlyNeeded": true,
+      "WorldMarkerShowDistance": 50,
+      "LocationsShownOnMap": [
+        {
+          "Location": {
+            "X": -752619.938,
+            "Y": -688133.312,
+            "Z": 10703.288
+          },
+          "SizeFactor": 1.0
+        }
+      ]
+    },
+    {
+      "TrackingCaption": "Ort 4 C1",
+      "SequenceIndex": 3,
+      "CanBeAutoCompleted": true,
+      "Type": "Interaction",
+      "Locations": [
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/C_1_Veliki_Tabor_03.C_1_Veliki_Tabor_03:PersistentLevel.BP_CB_06_B_EXT_CHILD_03.SM_CB_06_B_StaticMeshComponent0",
+          "Instance": 0,
+          "FallbackTransform": "-493255.500000,192052.562500,38073.410156|0.000000,135.827942,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/Continental_Buildings/CB_06/CB_06_B/Objects/SM_CB_06_B.SM_CB_06_B"
+        }
+      ],
+      "MinNeeded": 1,
+      "MaxNeeded": 1,
+      "SpawnOnlyNeeded": true,
+      "WorldMarkerShowDistance": 50,
+      "LocationsShownOnMap": [
+        {
+          "Location": {
+            "X": -492820.094,
+            "Y": 192966.328,
+            "Z": 37945.887
+          },
+          "SizeFactor": 1.0
+        }
+      ]
+    },
+    {
+      "TrackingCaption": "Ort 5 D4",
+      "SequenceIndex": 4,
+      "CanBeAutoCompleted": false,
+      "Type": "Interaction",
+      "Locations": [
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/D_4_Samobor_35_FireStation_02_Ext.D_4_Samobor_35_FireStation_02_Ext:PersistentLevel.BP_FireStation_Building_02_Interior_2.SM_Fire_Station_Building_02",
+          "Instance": 0,
+          "FallbackTransform": "324506.000000,379918.718750,21064.777344|0.000000,-76.358505,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/Fire_Station/Buildings/SM_Fire_Station_Tower_Retextured.SM_Fire_Station_Tower_Retextured"
+        }
+      ],
+      "MinNeeded": 1,
+      "MaxNeeded": 1,
+      "SpawnOnlyNeeded": true,
+      "WorldMarkerShowDistance": 50,
+      "LocationsShownOnMap": [
+        {
+          "Location": {
+            "X": 325487.375,
+            "Y": 379999.875,
+            "Z": 21141.391
+          },
+          "SizeFactor": 1.5
+        }
+      ]
+    }
+  ]
+}

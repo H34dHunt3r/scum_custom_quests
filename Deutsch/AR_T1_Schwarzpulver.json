@@ -1,0 +1,37 @@
+{
+  "AssociatedNPC": "Armorer",
+  "Tier": 1,
+  "Title": "Schwarzpulver",
+  "Description": "Immer mehr Kunden möchte versuchen selber Munition zu bauen, meistens haben si dann ein paar Finger weniger... . Bring mir 10 mal Schwarzpulver",
+  "TimeLimitHours": 48.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 1500,
+      "Fame": 15,
+      "Skills": [
+        {
+          "Skill": "Demolition",
+          "Experience": 1500
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "10 Schwarzpulver",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": true,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Gun_Powder"
+          ],
+          "RequiredNum": 10
+        }
+      ]
+    }
+  ]
+}
